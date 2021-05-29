@@ -48,11 +48,16 @@
   font-size: $type-size-4;
 }
 
+/*.pubLois {
+margin-bottom: -6px;
+} */
+
 .page__content {
 
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+	margin-bottom: -6px;
   }
 
   p, li, dl {
