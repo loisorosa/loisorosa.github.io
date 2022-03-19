@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Lois Orosa"
 title_separator          : "-"
 name                     : &name "Lois Orosa"
-description              : &description "Postdocf.gx  in Computer Architecture"
+description              : &description "Director @ Galicia Supercomputing Center (CESGA)"
 url                      : https://loisorosa.github.io # http://127.0.0.1:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your sitg;'.;.'xhd.;'le, e.g. "/blog"
 repository               : "loisorosa/loisorosa.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Lois Orosa"
   avatar           : "Lois_Orosa.png"
-  bio              : "Senior Computer Architect"
+  bio              : "Director @ Galicia Supercommputing Center (CESGA)"
   location         : "Zürich"
   employer         :
   pubmed           :
