@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Academic Website</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --primary: #1f3b73;
+      --secondary: #5f6b7a;
+      --accent: #2b6cb0;
+      --text: #1a202c;
+      --border: #e2e8f0;
+      --shadow: 0 4px 20px rgba(0,0,0,0.06);
+      --radius: 18px;
+      --max-width: 1100px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--accent);
+      transition: 0.2s;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    .container {
+      width: 90%;
+      max-width: var(--max-width);
+      margin: auto;
+    }
+
+    /* Navigation */
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      z-index: 1000;
+    }
+
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: var(--secondary);
+      font-weight: 500;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 5rem 0 3rem;
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      color: var(--secondary);
+      font-size: 1.1rem;
+      max-width: 700px;
+    }
+
+    .hero-buttons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.9rem 1.4rem;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .profile-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 4px solid #edf2f7;
+    }
+
+    /* Sections */
+    section {
+      margin: 4rem 0;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: var(--shadow);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Publications */
+    .publication {
+      margin-bottom: 1.5rem;
+    }
+
+    .publication h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .publication p {
+      color: var(--secondary);
+      font-size: 0.95rem;
+    }
+
+    /* Timeline */
+    .timeline-item {
+      border-left: 3px solid var(--accent);
+      padding-left: 1.5rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -8px;
+      top: 4px;
+      width: 12px;
+      height: 12px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+
+    footer {
+      margin-top: 5rem;
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--secondary);
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .profile-card {
+        max-width: 320px;
+      }
+
+      .hero-text h1 {
+        font-size: 2.4rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .nav-links {
+        gap: 1rem;
+        font-size: 0.9rem;
+      }
+
+      .hero-text h1 {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-content">
+      <h2>Your Name</h2>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="container hero">
+    <div class="hero-text">
+      <h1>
+        Your Name
+      </h1>
+
+      <p>
+        Assistant Professor / Research Scientist at Your Institution.
+        My research focuses on AI hardware, memory systems, 
+        computer architecture, hardware security, and high-performance computing.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="cv.pdf">
+          Download CV
+        </a>
+
+        <a class="btn btn-secondary" href="https://scholar.google.com">
+          Google Scholar
+        </a>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <img src="profile.jpg" alt="Profile Photo">
+
+      <h3>Your Name</h3>
+
+      <p>
+        Your Institution
+      </p>
+
+      <p>
+        your.email@institution.edu
+      </p>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2 class="section-title">About</h2>
+
+    <div class="card">
+      <p>
+        Welcome to my academic webpage. I am interested in designing
+        next-generation computing systems for AI and scientific computing,
+        with emphasis on reliability, security, processing-in-memory,
+        and scalable architectures.
+      </p>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section id="research" class="container">
+    <h2 class="section-title">Research Interests</h2>
+
+    <div class="card">
+      <ul>
+        <li>AI Accelerators and Systems</li>
+        <li>Memory Systems and Processing-in-Memory</li>
+        <li>Hardware Security and Reliability</li>
+        <li>Neuromorphic Computing</li>
+        <li>High-Performance Computing</li>
+        <li>Quantum and Cryogenic Computing</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="container">
+    <h2 class="section-title">Selected Publications</h2>
+
+    <div class="card">
+
+      <div class="publication">
+        <h3>
+          Paper Title Goes Here
+        </h3>
+
+        <p>
+          Authors — Conference/Journal, Year
+        </p>
+
+        <a href="#">PDF</a>
+      </div>
+
+      <div class="publication">
+        <h3>
+          Another Important Publication
+        </h3>
+
+        <p>
+          Authors — Conference/Journal, Year
+        </p>
+
+        <a href="#">PDF</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="container">
+    <h2 class="section-title">News & Updates</h2>
+
+    <div class="card">
+
+      <div class="timeline-item">
+        <h3>May 2026</h3>
+        <p>
+          New paper accepted at a top-tier conference.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>March 2026</h3>
+        <p>
+          Started a new research project on AI infrastructures.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="card">
+      <p>
+        Email:
+        <a href="mailto:your.email@institution.edu">
+          your.email@institution.edu
+        </a>
+      </p>
+
+      <p>
+        Office: Department / Building / University
+      </p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/yourusername">
+          github.com/yourusername
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      © 2026 Your Name — Academic Website
+    </div>
+  </footer>
+
+</body>
+</html>
