@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can find my updated list of papers on <a href="https://scholar.google.com/citations?user=MzblxxcAAAAJ&hl=en&authuser=1">my Google Scholar profile</a>.
+You can find an updated list of all my papers on <a href="https://scholar.google.com/citations?user=MzblxxcAAAAJ&hl=en&authuser=1">my Google Scholar profile</a>.
 
 {% include base_path %}
 
