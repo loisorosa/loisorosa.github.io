@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Lois Orosa"
 title_separator          : "-"
 name                     : &name "Lois Orosa"
-description              : &description "Senior Researcher\
-Ramon y Cajal Contract\
+description              : &description "Senior Researcher\n
+Ramon y Cajal Contract\n
 Scientific Director @ Galicia Supercomputing Center (CESGA)"
 url                      : https://loisorosa.github.io # http://127.0.0.1:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your sitg;'.;.'xhd.;'le, e.g. "/blog"
@@ -84,8 +84,8 @@ analytics:
 author:
   name             : "Lois Orosa"
   avatar           : "Lois_Orosa.png"
-  bio              : "Senior Researcher\
-  Ramon y Cajal Fellow\
+  bio              : "Senior Researcher\n
+  Ramon y Cajal Fellow\n
   Scientific Director @ Galicia Supercommputing Center (CESGA)"
   location         : "Santiago de Compostela"
   employer         :
