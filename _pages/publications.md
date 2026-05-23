@@ -11,10 +11,10 @@ You can find an updated list of all my papers on <a href="https://scholar.google
 
 
 
-#{% include base_path %}
+[comment]:{% include base_path %}
 
-#{% for post in site.publications reversed %}
-#  {% include archive-single.html %}
-#{% endfor %}
+[comment]:{% for post in site.publications reversed %}
+[comment]:  {% include archive-single.html %}
+[comment]:{% endfor %}
 
-#[comment]: <sup>*</sup> Equal authorship statement
+[comment]: <sup>*</sup> Equal authorship statement
