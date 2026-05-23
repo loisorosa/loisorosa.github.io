@@ -7,7 +7,8 @@ author_profile: true
 
 You can find an updated list of all my papers on <a href="https://scholar.google.com/citations?user=MzblxxcAAAAJ&hl=en&authuser=1">my Google Scholar profile</a>.
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2Fkrm9fyjYtadhiJ92B&noBootstrap=1&jsonp=1&nocache=1"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Floisorosa.github.io%2Ffiles%2Fcitations.bib&commas=true&noBootstrap=1&jsonp=1"></script>
+
 
 
 #{% include base_path %}
