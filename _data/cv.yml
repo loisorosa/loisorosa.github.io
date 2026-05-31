@@ -1,189 +1,1077 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Lois Orosa Nogueira
+  #headline: Scientific Director, Senior Researcher
+  location: Santiago de Compostela, Spain
+  email: lois.orosa.nogueira@gmail.com
+  #image: ""
+  #summary: "I am a computer architect with a strong background in memory systems, hardware security and reliability, and data-centric computing. I am currently the Scientific Director and Senior Researcher at the Galicia Supercomputing Center (CESGA), where I lead research efforts in designing reliable, secure, and efficient computing systems for AI and other emerging applications. My research interests include computer architecture, memory systems, hardware security and reliability, data-centric computing, new memory technologies, AI hardware-software co-design, storage systems, parallel systems, and quantum computing reliability and security."
+  website: https://loisorosa.github.io
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: loisorosa
+  
+  #address:
+  #  street: Avenida de Vigo, s/n
+  #  city: Santiago de Compostela
+  #  region: Galicia
+  #  postalCode: 15705
+  #  country: Spain
 
   sections:
+    Interests:
+      - name: Computer Architecture
+        icon: fa-solid fa-tag
+        keywords: "Computer Architecture, Memory Systems, Hardware Security and Reliability, Data Centric Computing, New Memory Technologies, AI Hardware-Software Co-design, Storage Systems, Parallel Systems, Quantum Computing Reliability and Security."
+        
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University of Santiago de Compostela
+        area: Computer Architecture
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2008-12
+        end_date: 2013-09
+        location: Santiago de Compostela, Spain
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: New Hardware Support for Transactional Memory and Parallel Debugging in Multicore Processors"
+          - "Advisor: Elisardo Antelo and Javier Bruguera"
+          - "Supported by the project \"Hardware and software support for high performance computing\" (TIN201017541)"
+          - "Interuniversity PhD Courses in Information Technology (University of Santiago de Compostela and University of A Coruña)"
+      - institution: University of Vigo
+        area: Telecommunications Engineering
+        degree: M.Eng
+        start_date: 2000-09
+        end_date: 2006-06
+        location: Vigo, Spain
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Galicia Supercomputing Center (CESGA)
+        position: Scientific Director
+        start_date: 2025-09
+        end_date: present
+        location: Santiago de Compostela, Spain
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Scientific Director
+          - Designing a Scientific Strategy for scaling the institution
+          - Institutional representative
+          - Get and lead the European AI Factory 1HealthAI (82M EUR)
+      
+      - company: Galicia Supercomputing Center (CESGA)
+        position: Senior Researcher
+        date:
+        start_date: 2025-09
+        end_date: present
+        location: Santiago de Compostela, Spain
+        summary: Design Reliable, secure and efficient computing systems for AI and other emerging applications
         highlights:
-          - Description 1.
-          - Description 2.
+          - Ramón y Cajal tenure track contract (ranked 1st with a score of 100/100)
+          - Leading a Consolidación Investigadora proyect (199.927 EUR.)
+          - Xunta the Galicia Consolidator Grant (115.000 EUR.)
+          - Leading the Experimental platform of the 1HealthAI AI Factory (4M EUR.)
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
+      - company: Galicia Supercomputing Center (CESGA)
+        position: Managing Director
+        date:
+        start_date: 2022-03
+        end_date: 2025-09
+        location: Santiago de Compostela, Spain
+        highlights:
+          - Leading CESGA’s strategic change.– Contributing to attract large European Funds for infraestructure, services and research.
+          - CESGA Representative in the Galicia Quantum Technology Hub (2022-2030, 154M EUR)
+          - Quantum Computer with more Qubits in South Europe (2023, 32 Qubits, 14M EUR)
+          - Second largest Supercomputer in Spain (Finisterrae III, 2022, 7M EUR)
+    
+      - company: ETH Zürich, D-ITET, SAFARI group
+        position: Senior Researcher
+        date:
+        start_date: 2019-01
+        end_date: 2022-03
         location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        summary: Memory Systems and Hardware Security
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "PI: Onur Mutlu"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Xilinx Research
+        position: Internship
+        date:
+        start_date: 2018-07
+        end_date: 2018-12
+        location: Dublin, Ireland
+        summary:  Training Convolutional Neural Networks (CNNs)
+        highlights:
+          - "Mentors: Michaela Blott, Yaman Umuroglu"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: University of Campinas (UNICAMP), LSC
+        position: PostDoctoral Fellow
+        date:
+        start_date: 2014-06
+        end_date: 2018-07
+        location: Campinas, Brazil
+        summary: Architectural Support for Speculative Program Execution
+        highlights:
+          - Supported by FAPESP grant 2014/03840-2.
+          - "PI: Rodolfo Azevedo."
 
+      - company: ETH Zürich, Department of Computer Science, SAFARI Group
+        position: Academic Guest
+        date:
+        start_date: 2017-01
+        end_date: 2017-12
+        location: Zürich, Switzerland
+        summary: Enabling security features in commodity DRAM chips
+        highlights:
+          - Supported by FAPESP grant 2016/18929-4. 
+          - "Supervisor: Onur Mutlu" 
+
+      - company: University of Santiago de Compostela
+        position: PostDoctoral Researcher
+        date:
+        start_date: 2014-01
+        end_date: 2014-05
+        location: Santiago de Compostela, Spain
+        highlights:
+          - "Supervisor: Elisardo Antelo and Javier Bruguera" 
+
+      - company: Universidade Nova de Lisboa
+        position: PostDoctoral Researcher
+        date:
+        start_date: 2013-09
+        end_date: 2013-12
+        location: Lisboa, Portugal
+        summary: Hardware support for detecting atomicity violations.
+        highlights:
+          - Supported by European Cooperation in Science and Technology (COST) with a Short-term Scientific Mission (STSM).
+          - "Supervisor: João Lourenço" 
+
+      - company: Recore Systems
+        position: Internship
+        date:
+        start_date: 2012-08
+        end_date: 2012-12
+        location: Dublin, Ireland
+        summary:  Development of a shared memory multicore simulator.
+        highlights:
+          - "Mentor: Gerard Rauwerda"
+
+      - company: IBM R&D Labs
+        position: Summer Internship
+        date:
+        start_date: 2010-07
+        end_date: 2010-11
+        location: Dublin, Ireland
+        summary:  Development of compiler-based deterministic replay for X10 Language
+        highlights:
+          - "Mentors: Olga Golovanevsky, Marina Biberstein, Bilha Mendelson"
+
+      - company: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
+        position: Scholarship
+        date:
+        start_date: 2009-09
+        end_date: 2009-12
+        location: Urbana-Champaign, U.S.A
+        summary: Tolerating concurrency bugs in multicore processors
+        highlights:
+          - Department of Computer Science, IACOMA group 
+          - "Advisor: Josep Torrellas"
+
+      - company: Arantia 2010 (Televes Group)
+        position: R&D Engineer
+        date: 2006
+        start_date: 2006-11
+        end_date: 2008-01
+        location: Santiago de Compostela, Spain
+        summary:  Development of network multimedia applications (TV streaming, multimedia contents).
+
+      - company: Communitel Global S.A (Vodafone)
+        position: Engineer
+        date:
+        start_date: 2006-04
+        end_date: 2006-10
+        location: Vigo, Spain
+        summary:  Resolve second level maintenance issues, and automatize large-scale production tasks with perl and C.
+     
+      - company: Communitel Global S.A (Vodafone)
+        position: Engineer
+        date:
+        start_date: 2005-07
+        end_date: 2005-10
+        location: Vigo, Spain
+        summary:  Development of a web-based application for monitoring and controlling the network infrastructure.
+
+    #projects:
+    #  - name: '[FlashInfer](https://github.com/)'
+    #    date:
+    #    start_date: 2023-01
+    #    end_date: present
+    #    location:
+    #    summary: Open-source library for high-performance LLM inference kernels
+    #    highlights:
+    #      - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+    #      - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+    #  - name: '[NeuralPrune](https://github.com/)'
+    #    date: '2021'
+    #    start_date:
+    #    end_date:
+    #    location:
+    #    summary: Automated neural network pruning toolkit with differentiable masks
+    #    highlights:
+    #      - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
+    #      - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "SpyHammer: Understanding and exploiting RowHammer under fine-grained temperature
+          variations"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Orosa, Lois
+          - Ruhrmair, Ulrich
+          - Yaglikci, A Giray
+          - Luo, Haocong
+          - Olgun, Ataberk
+          - Jattke, Patrick
+          - Patel, Minesh
+          - Kim, Jeremie S
+          - Razavi, Kaveh
+          - Mutlu, Onur
+        journal: IEEE access
+        date: "ACCESS’24"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "DRAM bender: An extensible and Versatile FPGA-based Infrastructure to Easily Test State-of-the-art DRAM chips"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Olgun, Ataberk
+          - Hassan, Hasan
+          - Yaglikci, A Giray
+          - Tugrul, Yahya Can
+          - Orosa, Lois
+          - Luo, Haocong
+          - Patel, Minesh
+          - Ergin, Oguz
+          - Mutlu, Onur
+        journal: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD’23)
+        date: "TCAD’23"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Using Approximate DRAM for Enabling Energy-Efficient, High-Performance Deep Neural Network Inference
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Orosa, Lois
+          - Koppula, Skanda
+          - Kanellopoulos, Konstantinos
+          - Yaglikci, A Giray
+          - Mutlu, Onur
+        journal: "Embedded Machine Learning for Cyber-Physical, IoT, and Edge Computing: Hardware Architectures, chapter 10"
+        date: "Springer’23"
 
+      - title: "Alp: Alleviating cpu-memory data movement overheads in memory-centric systems"
+        authors:
+          - Ghiasi, Nika Mansouri
+          - Vijaykumar, Nandita
+          - Oliveira, Geraldo F
+          - Orosa, Lois
+          - Fernandez, Ivan
+          - Sadrosadati, Mohammad
+          - Kanellopoulos, Konstantinos
+          - Hajinazar, Nastaran
+          - Luna, Juan Gomez
+          - Mutlu, Onur
+        journal: IEEE Transactions on Emerging Topics in Computing (TETC’22)
+        date: "TETC’22"
+
+      - title: "EcoFlow: Efficient Convolutional Dataflows on Low-Power Neural Network Accelerators"
+        authors:
+          - Orosa, Lois
+          - Koppula, Skanda
+          - Kanellopoulos, Konstantinos
+          - Umuroglu, Yaman
+          - Kanellopoulos, Konstantinos
+          - Gomez-Luna, Juan
+          - Blott, Michaela
+          - Vissers, Kees
+          - Mutlu, Onur
+        journal: IEEE Transactions on Computers (TC’23)
+        date: "TC’23"
+
+      - title: "Understanding Rowhammer under Reduced Wordline Voltage: An experimental study using real dram devices"
+        authors:
+          - Yaglikci, A Giray
+          - Luo, Haocong
+          - De Oliviera, Geraldo F
+          - Olgun, Ataberk
+          - Patel, Minesh
+          - Park, Jisung
+          - Hassan, Hasan
+          - Kim, Jeremie S
+          - Orosa, Lois
+          - Mutlu, Onur
+        journal: 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN’22)
+        date: "DSN’22"
+
+      - title: "pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables"
+        authors:
+          - Ferreira, Joao Dinis
+          - Falcao, Gabriel
+          - Gomez-Luna, Juan
+          - Alser, Mohammed
+          - Orosa, Lois
+          - Sadrosadati, Mohammad
+          - Kim, Jeremie S
+          - Oliveira, Geraldo F
+          - Shahroodi, Taha
+          - Nori, Anant
+          - Mutlu, Onur
+        journal: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO’22)
+        date: "MICRO’22"
+
+      - title: "Hira: Hidden Row Activation for Reducing Refresh Latency of Off-The DRAM Chips"
+        authors:
+          - Yaglikci, A Giray
+          - Olgun, Ataberk
+          - Patel, Minesh
+          - Luo, Haocong
+          - Hassan, Hasan
+          - Orosa, Lois
+          - Mutlu, Onur
+        journal: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO’22)
+        date: "MICRO’22"
+
+      - title: "NEON: Enabling Efficient Support for Nonlinear Operations in Resistive RAM-based Neural Network Accelerators"
+        authors:
+          - Manglik, Aditya
+          - Patel, Minesh
+          - Mao, Haiyu
+          - Salami, Behzad
+          - Park, Jisung
+          - Orosa, Lois
+          - Mutlu, Onur
+        journal: arXiv preprint arXiv:2211.05730
+        date: "arXiv’22"
+
+      - title: Optically Connected Memory for Disaggregated Data Centers
+        authors:
+          - Gonzalez, Jorge
+          - Palma, Mauricio G
+          - Hattink, Maarten
+          - Rubio-Noriega, Ruth
+          - Orosa, Lois
+          - Mutlu, Onur
+          - Bergman, Keren
+          - Azevedo, Rodolfo
+        journal: Journal of Parallel and Distributed Computing (JPDC’22)
+        date: "JPDC’22"
+
+      - title: "DR-STRaNGe: End-to-end System Design for DRAM-based True Random Number Generators"
+        authors:
+          - Bostanci, F Nisa
+          - Olgun, Ataberk
+          - Orosa, Lois
+          - Yaglikci, A Giray
+          - Kim, Jeremie S
+          - Hassan, Hasan
+          - Ergin, Oguz
+          - Mutlu, Onur
+        journal: 28th IEEE International Symposium on High-Performance Computer Architecture (HPCA’22)
+        date: "HPCA’22"
+
+      - title: "IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors"
+        authors:
+          - Haj-Yahya, Jawad
+          - Orosa, Lois
+          - Kim, Jeremie S
+          - Gomez-Luna, Juan 
+          - Yaglikci, A Giray
+          - Alser, Mohammed
+          - Puddu, Ivan
+          - Mutlu, Onur
+        journal: 48th IEEE International Symposium on Computer Architecture (ISCA’21)
+        date: "ISCA’21"
+
+      - title: "A Deeper Look into RowHammer’s sensitivities: Experimental analysis of real DRAM Chips and Implications on Future Attacks and Defenses"
+        authors:
+          - Orosa, Lois
+          - Yaglikci, Abdullah Giray
+          - Luo, Haocong
+          - Olgun, Ataberk
+          - Park, Jisung
+          - Hassan, Hasan
+          - Patel, Minesh
+          - Kim, Jeremie S
+          - Mutlu, Onur
+        journal: 54th IEEE/ACM International Symposium on Microarchitecture (MICRO’21)
+        date: "MICRO’21"
+
+      - title: Reducing Solid-state Drive Read Latency by Optimizing Read-retry
+        authors:
+          - Park, Jisung
+          - Kim, Myungsuk
+          - Chun, Myoungjun
+          - Orosa, Lois
+          - Kim, Jihong
+          - Mutlu, Onur
+        journal: 26th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’21)
+        date: "ASPLOS’21"
+
+      - title: "SynCron: Efficient Synchronization Support for Near-data-processing Architectures"
+        authors:
+          - Giannoula, Christina
+          - Vijaykumar, Nandita
+          - Papadopoulou, Nikela
+          - Karakostas, Vasileios
+          - Fernandez, Ivan
+          - Gomez-Luna, Juan
+          - Orosa, Lois
+          - Koziris, Nectarios
+          - Goumas, Georgios
+          - Mutlu, Onur
+        journal: 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA’21)
+        date: "HPCA’21"
+
+      - title: "Blockhammer: Preventing rowhammer at low cost by blacklisting rapidly-accessed
+          dram rows"
+        authors:
+          - Yaglikci, A Giray
+          - Patel, Minesh
+          - Kim, Jeremie S
+          - Azizi, Roknoddin
+          - Olgun, Ataberk
+          - Orosa, Lois
+          - Hassan, Hasan
+          - Park, Jisung
+          - Kanellopoulos, Konstantinos
+          - Shahroodi, Taha
+          - Ghose, Saugata
+          - Mutlu, Onur
+        journal: 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA’21)
+        date: "HPCA’21"
+
+      - title: "DAMOV: A new methodology and benchmark suite for evaluating data movement
+          bottlenecks"
+        authors:
+          - Oliveira, Geraldo F
+          - Gomez-Luna, Juan
+          - Orosa, Lois
+          - Ghose, Saugata
+          - Vijaykumar, Nandita
+          - Fernandez, Ivan
+          - Sadrosadati, Mohammad
+          - Mutlu, Onur
+        journal: IEEE Access
+        date: "ACCESS’21"
+
+      - title: "Codic: A low-cost substrate for enabling custom in-dram functionalities
+          and optimizations"
+        authors:
+          - Orosa, Lois
+          - Wang, Yaohua
+          - Sadrosadati, Mohammad
+          - Kim, Jeremie S
+          - Patel, Minesh
+          - Puddu, Ivan
+          - Luo, Haocong
+          - Razavi, Kaveh
+          - Gomez-Luna, Juan
+          - Hassan, Hasan
+          - others
+        journal: 48th IEEE International Symposium on Computer Architecture (ISCA’21)
+        date: "ISCA’21"
+
+      - title: "FIGARO: Improving System Performance via Fine-grained in-DRAM Data Relocation and Caching"
+        authors:
+          - Wang, Yaohua
+          - Orosa, Lois
+          - Peng, Xiangjun
+          - Guo, Yang
+          - Ghose, Saugata
+          - Patel, Minesh
+          - Kim, Jeremie S
+          - Gomez-Luna, Juan
+          - Sadrosadati, Mohammad
+          - Ghiasi, Nika Mansouri
+          - Mutlu, Onur
+        journal: 53th IEEE/ACM International Symposium on Microarchitecture (MICRO’20)
+        date: "MICRO’20"
+
+      - title: "Revisiting rowhammer: An Experimental Analysis of Modern DRAM Devices and Mitigation Techniques"
+        authors:
+          - Kim, Jeremie S
+          - Patel, Minesh
+          - Ya{\u{g}}l{\i}k{\c{c}}{\i}, A Giray
+          - Hassan, Hasan
+          - Azizi, Roknoddin
+          - Orosa, Lois
+          - Mutlu, Onur
+        journal: 47th Annual International Symposium on Computer Architecture (ISCA’20)
+        date: "ISCA’20"
+
+      - title: "FlexWatts: A Power-and Workload-aware Hybrid Power Delivery Network for Energy-efficient Microprocessors"
+        authors:
+          - Haj-Yahya, Jawad
+          - Alser, Mohammed
+          - Kim, Jeremie S
+          - Orosa, Lois
+          - Rotem, Efraim
+          - Mendelson, Avi
+          - Chattopadhyay, Anupam
+          - Mutlu, Onur
+        journal:  53rd IEEE/ACM International Symposium on Microarchitecture (MICRO’20)
+        date: "MICRO’20"
+
+      - title: "WoLFRaM: Enhancing Wear-leveling and Fault Tolerance in Resistive Memories using Programmable Address Decoders"
+        authors:
+          - Yavits, Leonid
+          - Orosa, Lois
+          - Mahar, Suyash
+          - Ferreira, Joao Dinis
+          - Erez, Mattan
+          - Ginosar, Ran
+          - Mutlu, Onur
+        journal:  38th IEEE International Conference on Computer Design (ICCD’20)
+        date: "ICCD’20"
+
+      - title: "Evanesco: Architectural Support for Efficient Data Sanitization in Modern Flash-based Storage Systems"
+        authors:
+          - Kim, Myungsuk
+          - Park, Jisung
+          - Cho, Genhee
+          - Kim, Yoona
+          - Orosa, Lois
+          - Mutlu, Onur
+          - Kim, Jihong
+        journal: 25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’20)
+        date: "ASPLOS’20"
+
+      - title: "Robust Machine Learning Systems: Challenges, Current Trends, Perspectives, and the Road Ahead"
+        authors:
+          - Shafique, Muhammad
+          - Naseer, Mahum
+          - Theocharides, Theocharis
+          - Kyrkou, Christos
+          - Mutlu, Onur
+          - Orosa, Lois
+          - Choi, Jungwook
+        journal: IEEE Design & Test (D&T)
+        date: "D&T’20"
+
+      - title: "CLR-DRAM: A Low-cost DRAM Architecture Enabling Dynamic Capacity-latency Trade-off"
+        authors:
+          - Luo, Haocong
+          - Shahroodi, Taha
+          - Hassan, Hasan
+          - Patel, Minesh
+          - Yaglikci, A Giray
+          - Orosa, Lois
+          - Park, Jisung
+          - Mutlu, Onur
+        journal: 47th Annual International Symposium on Computer Architecture (ISCA’20)
+        date: "ISCA’20"
+
+      - title: "D-RaNGe: Using commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput"
+        authors:
+          - Kim, Jeremie S
+          - Patel, Minesh
+          - Hassan, Hasan
+          - Orosa, Lois
+          - Mutlu, Onur
+        journal: 5th IEEE International Symposium on High-Performance Computer Architecture (HPCA’19)
+        date: "HPCA’19"
+
+      - title: "ITAP: Idle-time-aware Power Management for GPU Execution Units"
+        authors:
+          - Sadrosadati, Mohammad
+          - Ehsani, Seyed Borna
+          - Falahati, Hajar
+          - Ausavarungnirun, Rachata
+          - Tavakkol, Arash
+          - Abaee, Mojtaba
+          - Orosa, Lois
+          - Wang, Yaohua
+          - Sarbazi-Azad, Hamid
+          - Mutlu, Onur
+        journal: ACM Transactions on Architecture and Code Optimization (TACO)
+        date: "TACO’19"
+
+      - title: "EDEN: Enabling Energy-efficient, High-performance Deep Neural Network Inference using Approximate DRAM"
+        authors:
+          - Koppula, Skanda
+          - Orosa, Lois
+          - Yaglikci, A Giray
+          - Azizi, Roknoddin
+          - Shahroodi, Taha
+          - Kanellopoulos, Konstantinos
+          - Mutlu, Onur
+        journal: 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO’19)
+        date: "MICRO’19"
+
+      - title: "Reducing DRAM Latency via Charge-level-aware Look-ahead partial Restoration"
+        authors:
+          - Wang, Yaohua
+          - Tavakkol, Arash
+          - Orosa, Lois
+          - Ghose, Saugata
+          - Ghiasi, Nika Mansouri
+          - Patel, Minesh
+          - Kim, Jeremie S
+          - Hassan, Hasan
+          - Sadrosadati, Mohammad
+          - Mutlu, Onur
+        journal:  51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO’18)
+        date: "MICRO’18"
+
+      - title: "AVPP: Address-first Value-next Predictor with Value Prefetching for Improving the Efficiency of Load Value Prediction"
+        authors:
+          - Orosa, Lois
+          - Azevedo, Rodolfo
+          - Mutlu, Onur
+        journal: ACM Transactions on Architecture and Code Optimization (TACO)
+        date: "TACO’18"
+
+      - title: "FLIN: Enabling Fairness and Enhancing Performance in Modern NVMe Solid State Drives"
+        authors:
+          - Tavakkol, Arash
+          - Sadrosadati, Mohammad
+          - Ghose, Saugata
+          - Kim, Jeremie
+          - Luo, Yixin
+          - Wang, Yaohua
+          - Ghiasi, Nika Mansouri
+          - Orosa, Lois
+          - Gomez-Luna, Juan
+          - Mutlu, Onur
+        journal: 45th International Symposium on Computer Architecture (ISCA’18),
+        date: "ISCA’18"
+
+      - title: Asymmetric Allocation in a Shared Flexible Signature Module for Multicore Processors
+        authors:
+          - Orosa, Lois
+          - Bruguera, Javier D
+          - Antelo, Elisardo
+        journal: The Computer Journal (CJ’16)
+        date: "CJ’16"
+
+      - title: A Hardware Approach to Detect, Expose and Tolerate High Level Data Races
+        authors:
+          - Orosa, Lois
+          - Lourenco, Joao
+        journal: 4th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP’16)
+        date: "PDP’16"
+
+      - title: Temporal frequent value locality
+        authors:
+          - Orosa, Lois
+          - Azevedo, Rodolfo
+        journal: 3rd IEEE International Conference on Electronics, Circuits and Systems (ICECS’16)
+        date: "ICECS’16"
+
+      - title: Architecting a Computer with a Full Optical RAM
+        authors:
+          - Gonzalez, Jorge
+          - Orosa, Lois
+          - Azevedo, Rodolfo
+        journal: 3rd IEEE International Conference on Electronics, Circuits and Systems (ICECS’16)
+        date: "ICECS’16"
+
+      - title: "Flexsig: Implementing Flexible Hardware Signatures"
+        authors:
+          - Orosa, Lois
+          - Antelo, Elisardo
+          - Bruguera, Javier D
+        journal: ACM Transactions on Architecture and Code Optimization (TACO)
+        date: "TACO’12"
+
+      - title: "Pacman: Tolerating Asymmetric Data Races with Unintrusive Hardware"
+        authors:
+          - Qi, Shanxiang
+          - Otsuki, Norimasa
+          - Nogueira, Lois Orosa
+          - Muzahid, Abdullah
+          - Torrellas, Josep
+        journal: 8th International Symposium on High Performance Computer Architecture (HPCA’12)
+        date: "HPCA’12"
+
+    Workshops:
+      - title: "LogSI-HTM: Log Based Snapshot Isolation in Hardware Transactional Memory"
+        authors:
+          - Orosa, Lois
+          - Azevedo, Rodolfo
+        journal: 7th Workshop on the Theory of Transactional Memory (WTTM’15)
+        date: "WTTM’15"
+      
+      - title: "A Hardware Approach for Detecting, Exposing and Tolerating High Level Atomicity Violations"
+        authors:
+          - Orosa, Lois
+          - Lourenco, Joao
+        journal: Workshop on Dependable Multicore and Transactional Memory Systems (DMTM’14)
+        date: "DMTM’14"
+
+
+    Posters:
+      - title: "CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations"
+        authors:
+          - Orosa, Lois
+          - Wang, Yaohua
+          - Sadrosadati, Mohammad
+          - Kim, Jeremie
+          - Patel, Minesh
+          - Puddu, Ivan
+          - Luo, Haocong
+          - Razavi, Kaveh
+          - Gomez-Luna, Juan
+          - Hassan, Hasan
+          - Mansouri, Nika Ghiasi
+          - Ghose, Saugata
+          - Mutlu, Onur
+        journal: 9th IEEE International Symposium on Computer Architecture (ISCA’22),
+        date: "ISCA’22"
+
+      - title: "Dataplant: A Low-Cost In-DRAM Value Generation Primitive for Enabling System Security Features"
+        authors:
+          - Orosa, Lois
+          - Wang, Yaohua
+          - Puddu, Ivan
+          - Sadrosadati, Mohammad
+          - Hassan, Hasan
+          - Tavakkol, Arash
+          - Mansouri, Nika Ghiasi
+          - Patel, Minesh
+          - Kim, Jeremie
+          - Gomez-Luna, Juan
+          - Seshadri, Vivek
+          - Azevedo, Rodolfo
+          - Mutlu, Onur
+        journal: ETH Systems Group Industry Retreat
+        date: "Retreat’18"
+
+      - title: "Improving GPU Power and Energy Efficiency"
+        authors:
+          - Sadrosadati, Mohammad
+          - Mirhosseini, Amirhossein
+          - Ehsani, Seyed Borna
+          - Ausavarungnirun, Rachata
+          - Tavakkol, Arash
+          - Falahati, Hajar
+          - Orosa, Lois
+          - Wang, Yaohua
+          - Sarbazi-Azad, Hamid
+          - Falsafi, Babak
+          - Mutlu, Onur
+        journal: ETH Systems Group Industry Retreat
+        date: "Retreat’18"
+
+      - title: "Processing-In-Memory Benchmark Suite and Analysis"
+        authors:
+          - Gomez-Luna, Juan
+          - Tavakkol, Arash
+          - Boroumand, Amirali
+          - Olivera, Geraldo F
+          - Atamaner, Mert
+          - Sadrosadati, Mohammad
+          - Mansouri, Nika Ghiasi
+          - Orosa, Lois
+          - Mutlu, Onur
+        journal: ETH Systems Group Industry Retreat
+        date: "Retreat’18"
+
+      - title: "A Case for an Amnesic DRAM Chip"
+        authors:
+          - Orosa, Lois
+          - Wang, Yaohua
+          - Sadrosadati, Mohammad
+          - Hassan, Hasan
+          - Tavakkol, Arash
+          - Patel, Minesh
+          - Seshadri, Vivek
+          - Azevedo, Rodolfo
+          - Mutlu, Onur
+        journal: ETH Industry day
+        date: "Industry’17"
+
+      - title: "AVPP: Address-first Value-next Predictor with Value Prefetching"
+        authors:
+          - Orosa, Lois
+          - Azevedo, Rodolfo
+          - Mutlu, Onur
+        journal: ETH Systems Group Industry Retreat
+        date: "Retreat’17"
+
+      - title: "FlexSig: Implementing Flexible Hardware Signatures"
+        authors:
+          - Orosa, Lois
+          - Antelo, Elisardo
+          - Bruguera, Javier D
+        journal: 7th HiPEAC Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC’12),
+        date: "HiPEAC’12"
+    
+    #(Invited) Scientific Talks:
+      #- OneLineEntry:
+      #  details: "Computer Architecture Research in the Galicia Supercomputing Center: Challenges and Opportunities, 1st SAFARI Conference, "December 15th, 2025"
+        #authors:
+        #- Orosa, Lois
+        #journal: 
+        #date: 
+
+
+    #Undergraduate Thesis:
+    #  - name: ""
+    #    highlights:
+    #      - "Title Design and Development of an Interface to Access and Remotely Control a QoS Parameter Measurement Device in VoIP networks"
+    #      - "Telecommunications Engineering School, University of Vigo, April 2006• Advisor: J. Carlos López Ardao."
+    #      - "In collaboration with Comunitel Global S.A. (Vodafone)""
+
+    #Projects and Grants:
+    #  - name: ""
+    #    highlights:
+    #      - "PI of the 1HealthAI Factory, granted to CESGA 82.000.000 EUR."
+    #      - "PI of the Experimental Platform (as part of the 1Health AI Factory). Build realible, secure and efficient computer systems for AI, and building Quantum Computing systems 4.000.000 EUR."
+    #      - "IN607D 2025/12, PI in the Axudas do Programa de Consolidación e Estructuración de Unidades de Investigación Competitivas, 2025, with the project Memorias e sistemas de computación eficientes e seguros, 2025 call, 115.000 EUR"
+    #      - "CNS2024-154583, PI in the Consolidación Investigadora Proyect DRAM Security in High Performance Computing Systems, 2024 call, 199.927 EUR."
+    #      - "RYC2023-045785-I, Ramon y Cajal Tenure Track Contract: ranked 1st in Information and Communication Technologies area, in the 2023 call. Title: More Capable, Secure and Efficient DRAM Main Memory Designs and Computer Architectures. Score 100/100, 251.800 EUR"
+    #      - "Researcher in the project Memory System Design for AI/ML Accelerators & ML/AI Techniques for Memory System Design, Semiconductor Research Corporation (SRC), Task 2946.001, 1 year, 100.000 CHF"
+    #      - "FAPESP 2016/18929-4, Speculative Techniques for Reducing the Memory Bottleneck Problem, ETH Zurich (Switzerland), 1 year, 68.735 CHF."
+    #      - "FAPESP 2014/03840-2, Architecture Support for Speculative Program Execution, University of Campinas (Brazil), 3 years, 239.990 BRL."
+    #      - "Euro-TM Short Term Scientific Mission, Universidade Nova de Lisboa, Lisbon (Portugal), 3 months, 3.500 EUR."
+    #      - "HiPEAC Industrial PhD Internship, Recore Systems, Enschede (Netherlands), 4 months, 5.000 EUR."
+    #      - "HiPEAC Industrial PhD Internship, IBM Haifa (Israel), 3 months, 5.000 EUR."
+    #      - "Researcher in the project “Hardware and software support for high performance computing" (TIN2010-17541),185.400 EUR."
+
+    Honors and Awards:
+      - title: Top Pick in Hardware and Embedded Security 2025
+        authors:
+          - "Top Picks"
+        date: 2025
+        awarder: Top Picks
+        url: https://loisorosa.github.io/assets/pdf/honors_awards/TopPicks2025Certificate_Paper_2716.jpg
+        summary: "The paper Revisiting RowHammer: An Experimental Analysis of Modern DRAM Devices and Mitigation Techniques, was awarded a Top Pick in Hardware and Embedded Security 2025. The Top Picks award recognizes the best of the best in hardware security from among all hardware security papers published in the last six years, across all top security (e.g., IEEE S&P, USENIX SEC), architecture (e.g., ISCA, ASPLOS), computer-aided design (e.g., ICCAD, DAC, DATE) and hardware security (CHES) venues."
+
+      - title: RYC2023-045785-I, Ramon y Cajal Tenure Track Contract
+        authors:
+          - "Ministry of Science of Spain"
+        date: 2023
+        awarder: Ministry of Science of Spain
+        url: https://loisorosa.github.io/assets/pdf/honors_awards/RESOLUCION_ELEGIBLES_Y_ RESERVAS_ RYC_2023.pdf
+        summary: Ranked 1st in Information and Communication Technologies area. Title  More Capable, Secure and Efficient DRAM Main Memory Designs and Computer Architectures. Score 100/100, 251.800 EUR
+
+      - title: R3 Certificate (established researcher)
+        authors:
+          - "Ministry of Science of Spain"
+        date: 2023
+        awarder: Ministry of Science of Spain
+        url: https://loisorosa.github.io/assets/pdf/honors_awards/Resolucion_concesion_II_CR32023.pdf
+        summary: Certificate given to researchers who have developed a level of independence. Score 96/100.
+
+      - title: 18 HiPEAC paper awards
+        authors:
+          - "HiPEAC"
+        date: Since 2017
+        awarder: HiPEAC
+        url: https://loisorosa.github.io/assets/pdf/honors_awards/hipeac_awards/
+        summary: I received 18 HiPEAC paper awards since 2017. The HiPEAC Paper Award aims to encourage HiPEAC members to publish their work at conferences in which Europe is not strongly represented. The award is given to a HiPEAC member who presents a full paper in one of the following list of conferences, ASPLOS, DAC, FCCM, HPCA, ISCA, MICRO, PLDI, POPL
+    
+      - title: Intel Hardware Security Academic Award 2022
+        authors:
+          - "Intel"
+        date: 2022
+        awarder: Intel
+        url: https://loisorosa.github.io/assets/pdf/honors_awards/intel_security_award_2022.png
+        summary: "The paper BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows was nominated as a finalist for the Intel Hardware Security Academic Award 2022 (one of 4 finalists out of 34 nominations)"
+
+
+    
+    Services:
+      - name: Program Committees
+        summary: "ICS26, DSN24, DSN23, ASHES22, ASHES21"
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
+      - name: Programming Languages
+        summary: "C/C++, assembly, Python, Perl, Java, VHDL, Latex"
+      - name: Tools
+        summary: "Intel Instrumentation Pin Tool, DRAM Bender, SoftMC, Git"
+      - name: Simulators
+        summary: "Simics, GEMS, gem5, QEMU, Ramulator, Bochs, ZSim, DRAMSim, McPath, Spice, DRAMPower"
     Languages:
-      - name: German
+      - name: Galician
         summary: "Native speaker"
-
+      - name: Spanish
+        summary: "Native speaker"
       - name: English
         summary: "Fluent"
+      - name: Portuguese
+        summary: "Professional working proficiency"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+design:
+  theme: sb2nov #engineeringclassic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV
