@@ -302,6 +302,7 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
+  compress_css: false # set to false — minifier corrupts Tailwind v4 CSS custom properties (--spacing → var( -  - spacing))
   exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
