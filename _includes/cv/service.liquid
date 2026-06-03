@@ -1,0 +1,17 @@
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <div class="skill-item">
+      <strong>{{ entry.name }}</strong>
+      {% if entry.highlights %}
+        <ul style="margin: 0.25rem 0 0.75rem 1.2rem; padding: 0;">
+          {% for item in entry.highlights %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% elsif entry.summary %}
+        <span>: {{ entry.summary }}</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+

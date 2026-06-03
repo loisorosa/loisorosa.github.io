@@ -18,11 +18,34 @@ cv:
   #  country: Spain
 
   sections:
-    Interests:
+    Research Interests:
       - name: Computer Architecture
-        icon: fa-solid fa-tag
-        keywords: "Computer Architecture, Memory Systems, Hardware Security and Reliability, Data Centric Computing, New Memory Technologies, AI Hardware-Software Co-design, Storage Systems, Parallel Systems, Quantum Computing Reliability and Security."
+        summary: "Memory Systems, Hardware Security and Reliability, Data Centric Computing, New Memory Technologies, AI Hardware-Software Co-design, Storage Systems, Parallel Systems, Quantum Computing Reliability and Security."
         
+    Institutional Leadership:
+      - company: Galicia Supercomputing Center (CESGA)
+        position: Scientific Director
+        start_date: 2025-09
+        end_date: present
+        location: Santiago de Compostela, Spain
+        highlights:
+          - Scientific Director
+          - Designing a Scientific Strategy for scaling the institution
+          - Institutional representative
+          - Get and lead the European AI Factory 1HealthAI (82M EUR)
+
+      - company: Galicia Supercomputing Center (CESGA)
+        position: Managing Director
+        date:
+        start_date: 2022-03
+        end_date: 2025-09
+        location: Santiago de Compostela, Spain
+        highlights:
+          - Leading CESGA’s strategic change.– Contributing to attract large European Funds for infraestructure, services and research.
+          - CESGA Representative in the Galicia Quantum Technology Hub (2022-2030, 154M EUR)
+          - Quantum Computer with more Qubits in South Europe (2023, 32 Qubits, 14M EUR)
+          - Second largest Supercomputer in Spain (Finisterrae III, 2022, 7M EUR)
+
     Education:
       - institution: University of Santiago de Compostela
         area: Computer Architecture
@@ -42,18 +65,7 @@ cv:
         end_date: 2006-06
         location: Vigo, Spain
 
-    Experience:
-      - company: Galicia Supercomputing Center (CESGA)
-        position: Scientific Director
-        start_date: 2025-09
-        end_date: present
-        location: Santiago de Compostela, Spain
-        highlights:
-          - Scientific Director
-          - Designing a Scientific Strategy for scaling the institution
-          - Institutional representative
-          - Get and lead the European AI Factory 1HealthAI (82M EUR)
-      
+    Academia:
       - company: Galicia Supercomputing Center (CESGA)
         position: Senior Researcher
         date:
@@ -67,18 +79,6 @@ cv:
           - Xunta the Galicia Consolidator Grant (115.000 EUR.)
           - Leading the Experimental platform of the 1HealthAI AI Factory (4M EUR.)
 
-      - company: Galicia Supercomputing Center (CESGA)
-        position: Managing Director
-        date:
-        start_date: 2022-03
-        end_date: 2025-09
-        location: Santiago de Compostela, Spain
-        highlights:
-          - Leading CESGA’s strategic change.– Contributing to attract large European Funds for infraestructure, services and research.
-          - CESGA Representative in the Galicia Quantum Technology Hub (2022-2030, 154M EUR)
-          - Quantum Computer with more Qubits in South Europe (2023, 32 Qubits, 14M EUR)
-          - Second largest Supercomputer in Spain (Finisterrae III, 2022, 7M EUR)
-    
       - company: ETH Zürich, D-ITET, SAFARI group
         position: Senior Researcher
         date:
@@ -89,15 +89,6 @@ cv:
         highlights:
           - "PI: Onur Mutlu"
 
-      - company: Xilinx Research
-        position: Internship
-        date:
-        start_date: 2018-07
-        end_date: 2018-12
-        location: Dublin, Ireland
-        summary:  Training Convolutional Neural Networks (CNNs)
-        highlights:
-          - "Mentors: Michaela Blott, Yaman Umuroglu"
 
       - company: University of Campinas (UNICAMP), LSC
         position: PostDoctoral Fellow
@@ -141,6 +132,35 @@ cv:
           - Supported by European Cooperation in Science and Technology (COST) with a Short-term Scientific Mission (STSM).
           - "Supervisor: João Lourenço" 
 
+
+      - company: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
+        position: Scholarship
+        date:
+        start_date: 2009-09
+        end_date: 2009-12
+        location: Urbana-Champaign, U.S.A
+        summary: Tolerating concurrency bugs in multicore processors
+        highlights:
+          - Department of Computer Science, IACOMA group 
+          - "Advisor: Josep Torrellas"
+
+
+
+
+
+    Industry Experience:
+
+      - company: Xilinx Research
+        position: Internship
+        date:
+        start_date: 2018-07
+        end_date: 2018-12
+        location: Dublin, Ireland
+        summary:  Training Convolutional Neural Networks (CNNs)
+        highlights:
+          - "Mentors: Michaela Blott, Yaman Umuroglu"
+
+
       - company: Recore Systems
         position: Internship
         date:
@@ -160,17 +180,6 @@ cv:
         summary:  Development of compiler-based deterministic replay for X10 Language
         highlights:
           - "Mentors: Olga Golovanevsky, Marina Biberstein, Bilha Mendelson"
-
-      - company: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
-        position: Scholarship
-        date:
-        start_date: 2009-09
-        end_date: 2009-12
-        location: Urbana-Champaign, U.S.A
-        summary: Tolerating concurrency bugs in multicore processors
-        highlights:
-          - Department of Computer Science, IACOMA group 
-          - "Advisor: Josep Torrellas"
 
       - company: Arantia 2010 (Televes Group)
         position: R&D Engineer
@@ -195,7 +204,6 @@ cv:
         end_date: 2005-10
         location: Vigo, Spain
         summary:  Development of a web-based application for monitoring and controlling the network infrastructure.
-
     #projects:
     #  - name: '[FlashInfer](https://github.com/)'
     #    date:
@@ -231,6 +239,10 @@ cv:
           - Mutlu, Onur
         journal: IEEE access
         date: "ACCESS’24"
+        url: https://loisorosa.github.io/pdf/papers/SpyHammer-ACCESS24.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/SpyHammer-ACCESS24.pdf)"
+
+
 
       - title: "DRAM bender: An extensible and Versatile FPGA-based Infrastructure to Easily Test State-of-the-art DRAM chips"
         authors:
@@ -245,16 +257,9 @@ cv:
           - Mutlu, Onur
         journal: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD’23)
         date: "TCAD’23"
+        url: https://loisorosa.github.io/pdf/papers/DRAMbender-TCAD23.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/DRAMbender-TCAD23.pdf)"
 
-      - title: Using Approximate DRAM for Enabling Energy-Efficient, High-Performance Deep Neural Network Inference
-        authors:
-          - Orosa, Lois
-          - Koppula, Skanda
-          - Kanellopoulos, Konstantinos
-          - Yaglikci, A Giray
-          - Mutlu, Onur
-        journal: "Embedded Machine Learning for Cyber-Physical, IoT, and Edge Computing: Hardware Architectures, chapter 10"
-        date: "Springer’23"
 
       - title: "Alp: Alleviating cpu-memory data movement overheads in memory-centric systems"
         authors:
@@ -270,6 +275,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Transactions on Emerging Topics in Computing (TETC’22)
         date: "TETC’22"
+        url: https://loisorosa.github.io/pdf/papers/Alp-TETC22.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/Alp-TETC22.pdf)"
 
       - title: "EcoFlow: Efficient Convolutional Dataflows on Low-Power Neural Network Accelerators"
         authors:
@@ -284,6 +291,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Transactions on Computers (TC’23)
         date: "TC’23"
+        url: https://loisorosa.github.io/pdf/papers/ecoflow.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/ecoflow.pdf)"
 
       - title: "Understanding Rowhammer under Reduced Wordline Voltage: An experimental study using real dram devices"
         authors:
@@ -299,6 +308,8 @@ cv:
           - Mutlu, Onur
         journal: 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN’22)
         date: "DSN’22"
+        url: https://loisorosa.github.io/pdf/papers/rowhammer_voltage.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/rowhammer_voltage.pdf)"
 
       - title: "pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables"
         authors:
@@ -315,6 +326,8 @@ cv:
           - Mutlu, Onur
         journal: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO’22)
         date: "MICRO’22"
+        url: https://loisorosa.github.io/pdf/papers/pluto.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/pluto.pdf)"
 
       - title: "Hira: Hidden Row Activation for Reducing Refresh Latency of Off-The DRAM Chips"
         authors:
@@ -327,6 +340,8 @@ cv:
           - Mutlu, Onur
         journal: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO’22)
         date: "MICRO’22"
+        url: https://loisorosa.github.io/pdf/papers/hira.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/hira.pdf)"
 
       - title: "NEON: Enabling Efficient Support for Nonlinear Operations in Resistive RAM-based Neural Network Accelerators"
         authors:
@@ -339,6 +354,8 @@ cv:
           - Mutlu, Onur
         journal: arXiv preprint arXiv:2211.05730
         date: "arXiv’22"
+        url: https://loisorosa.github.io/pdf/papers/neon.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/neon.pdf)"
 
       - title: Optically Connected Memory for Disaggregated Data Centers
         authors:
@@ -352,6 +369,8 @@ cv:
           - Azevedo, Rodolfo
         journal: Journal of Parallel and Distributed Computing (JPDC’22)
         date: "JPDC’22"
+        url: https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf)"
 
       - title: "DR-STRaNGe: End-to-end System Design for DRAM-based True Random Number Generators"
         authors:
@@ -365,6 +384,8 @@ cv:
           - Mutlu, Onur
         journal: 28th IEEE International Symposium on High-Performance Computer Architecture (HPCA’22)
         date: "HPCA’22"
+        url: https://loisorosa.github.io/pdf/papers/drstrange.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/drstrange.pdf)"
 
       - title: "IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors"
         authors:
@@ -378,6 +399,8 @@ cv:
           - Mutlu, Onur
         journal: 48th IEEE International Symposium on Computer Architecture (ISCA’21)
         date: "ISCA’21"
+        url: https://loisorosa.github.io/pdf/papers/ichannels.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/ichannels.pdf)"
 
       - title: "A Deeper Look into RowHammer’s sensitivities: Experimental analysis of real DRAM Chips and Implications on Future Attacks and Defenses"
         authors:
@@ -392,6 +415,8 @@ cv:
           - Mutlu, Onur
         journal: 54th IEEE/ACM International Symposium on Microarchitecture (MICRO’21)
         date: "MICRO’21"
+        url: https://loisorosa.github.io/pdf/papers/deeper_look.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/deeper_look.pdf)"
 
       - title: Reducing Solid-state Drive Read Latency by Optimizing Read-retry
         authors:
@@ -403,6 +428,8 @@ cv:
           - Mutlu, Onur
         journal: 26th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’21)
         date: "ASPLOS’21"
+        url: https://loisorosa.github.io/pdf/papers/reducing.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/reducing.pdf)"
 
       - title: "SynCron: Efficient Synchronization Support for Near-data-processing Architectures"
         authors:
@@ -418,6 +445,8 @@ cv:
           - Mutlu, Onur
         journal: 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA’21)
         date: "HPCA’21"
+        url: https://loisorosa.github.io/pdf/papers/syncron.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/syncron.pdf)"
 
       - title: "Blockhammer: Preventing rowhammer at low cost by blacklisting rapidly-accessed
           dram rows"
@@ -436,6 +465,8 @@ cv:
           - Mutlu, Onur
         journal: 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA’21)
         date: "HPCA’21"
+        url: https://loisorosa.github.io/pdf/papers/blockhammer.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/blockhammer.pdf)"
 
       - title: "DAMOV: A new methodology and benchmark suite for evaluating data movement
           bottlenecks"
@@ -450,6 +481,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Access
         date: "ACCESS’21"
+        url: https://loisorosa.github.io/pdf/papers/damov.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/damov.pdf)"
 
       - title: "Codic: A low-cost substrate for enabling custom in-dram functionalities
           and optimizations"
@@ -467,6 +500,8 @@ cv:
           - others
         journal: 48th IEEE International Symposium on Computer Architecture (ISCA’21)
         date: "ISCA’21"
+        url: https://loisorosa.github.io/pdf/papers/codic.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/codic.pdf)"
 
       - title: "FIGARO: Improving System Performance via Fine-grained in-DRAM Data Relocation and Caching"
         authors:
@@ -483,6 +518,8 @@ cv:
           - Mutlu, Onur
         journal: 53th IEEE/ACM International Symposium on Microarchitecture (MICRO’20)
         date: "MICRO’20"
+        url: https://loisorosa.github.io/pdf/papers/figaro.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/figaro.pdf)"
 
       - title: "Revisiting rowhammer: An Experimental Analysis of Modern DRAM Devices and Mitigation Techniques"
         authors:
@@ -495,6 +532,8 @@ cv:
           - Mutlu, Onur
         journal: 47th Annual International Symposium on Computer Architecture (ISCA’20)
         date: "ISCA’20"
+        url: https://loisorosa.github.io/pdf/papers/revisiting_rowhammer.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/revisiting_rowhammer.pdf)"
 
       - title: "FlexWatts: A Power-and Workload-aware Hybrid Power Delivery Network for Energy-efficient Microprocessors"
         authors:
@@ -508,6 +547,8 @@ cv:
           - Mutlu, Onur
         journal:  53rd IEEE/ACM International Symposium on Microarchitecture (MICRO’20)
         date: "MICRO’20"
+        url: https://loisorosa.github.io/pdf/papers/flexwatts.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/flexwatts.pdf)"
 
       - title: "WoLFRaM: Enhancing Wear-leveling and Fault Tolerance in Resistive Memories using Programmable Address Decoders"
         authors:
@@ -520,6 +561,8 @@ cv:
           - Mutlu, Onur
         journal:  38th IEEE International Conference on Computer Design (ICCD’20)
         date: "ICCD’20"
+        url: https://loisorosa.github.io/pdf/papers/wolfram.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/wolfram.pdf)"
 
       - title: "Evanesco: Architectural Support for Efficient Data Sanitization in Modern Flash-based Storage Systems"
         authors:
@@ -532,6 +575,8 @@ cv:
           - Kim, Jihong
         journal: 25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’20)
         date: "ASPLOS’20"
+        url: https://loisorosa.github.io/pdf/papers/evanesco.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/evanesco.pdf)"
 
       - title: "Robust Machine Learning Systems: Challenges, Current Trends, Perspectives, and the Road Ahead"
         authors:
@@ -544,6 +589,8 @@ cv:
           - Choi, Jungwook
         journal: IEEE Design & Test (D&T)
         date: "D&T’20"
+        url: https://loisorosa.github.io/pdf/papers/robustML.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/robustML.pdf)"
 
       - title: "CLR-DRAM: A Low-cost DRAM Architecture Enabling Dynamic Capacity-latency Trade-off"
         authors:
@@ -557,6 +604,27 @@ cv:
           - Mutlu, Onur
         journal: 47th Annual International Symposium on Computer Architecture (ISCA’20)
         date: "ISCA’20"
+        url: https://loisorosa.github.io/pdf/papers/clrdram.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/clrdram.pdf)"
+
+      - title: "Optically Connected Memory for Disaggregated Data Centers"
+        authors:
+          - Gonzalez, Jorge
+          - Gazman, Alexander
+          - Hattink, Maarten
+          - Palma, Mauricio G.
+          - Bahadori, Meisam
+          - Rubio-Noriega, Ruth
+          - Orosa, Lois
+          - Glick, Madeleine
+          - Mutlu, Onur
+          - Bergman, Keren
+          - Azevedo, Rodolfo
+        date: "SBAC-PAD'20"
+        journal: "32nd International Symposium on Computer Architecture and High Performance Computing"
+        url: https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf)"
+
 
       - title: "D-RaNGe: Using commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput"
         authors:
@@ -567,6 +635,8 @@ cv:
           - Mutlu, Onur
         journal: 5th IEEE International Symposium on High-Performance Computer Architecture (HPCA’19)
         date: "HPCA’19"
+        url: https://loisorosa.github.io/pdf/papers/drange.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/drange.pdf)"
 
       - title: "ITAP: Idle-time-aware Power Management for GPU Execution Units"
         authors:
@@ -582,6 +652,8 @@ cv:
           - Mutlu, Onur
         journal: ACM Transactions on Architecture and Code Optimization (TACO)
         date: "TACO’19"
+        url: https://loisorosa.github.io/pdf/papers/itap.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/itap.pdf)"
 
       - title: "EDEN: Enabling Energy-efficient, High-performance Deep Neural Network Inference using Approximate DRAM"
         authors:
@@ -594,6 +666,9 @@ cv:
           - Mutlu, Onur
         journal: 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO’19)
         date: "MICRO’19"
+        url: https://loisorosa.github.io/pdf/papers/eden.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/eden.pdf)"
+
 
       - title: "Reducing DRAM Latency via Charge-level-aware Look-ahead partial Restoration"
         authors:
@@ -609,6 +684,8 @@ cv:
           - Mutlu, Onur
         journal:  51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO’18)
         date: "MICRO’18"
+        url: https://loisorosa.github.io/pdf/papers/reducing_dram_latency.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/reducing_dram_latency.pdf)"
 
       - title: "AVPP: Address-first Value-next Predictor with Value Prefetching for Improving the Efficiency of Load Value Prediction"
         authors:
@@ -617,6 +694,8 @@ cv:
           - Mutlu, Onur
         journal: ACM Transactions on Architecture and Code Optimization (TACO)
         date: "TACO’18"
+        url: https://loisorosa.github.io/pdf/papers/avpp.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/avpp.pdf)"
 
       - title: "FLIN: Enabling Fairness and Enhancing Performance in Modern NVMe Solid State Drives"
         authors:
@@ -632,6 +711,8 @@ cv:
           - Mutlu, Onur
         journal: 45th International Symposium on Computer Architecture (ISCA’18),
         date: "ISCA’18"
+        url: https://loisorosa.github.io/pdf/papers/flin.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/flin.pdf)"
 
       - title: Asymmetric Allocation in a Shared Flexible Signature Module for Multicore Processors
         authors:
@@ -640,6 +721,8 @@ cv:
           - Antelo, Elisardo
         journal: The Computer Journal (CJ’16)
         date: "CJ’16"
+        url: https://loisorosa.github.io/pdf/papers/asymmetric.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/asymmetric.pdf)"
 
       - title: A Hardware Approach to Detect, Expose and Tolerate High Level Data Races
         authors:
@@ -647,6 +730,8 @@ cv:
           - Lourenco, Joao
         journal: 4th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP’16)
         date: "PDP’16"
+        url: https://loisorosa.github.io/pdf/papers/data_races.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/data_races.pdf)"
 
       - title: Temporal frequent value locality
         authors:
@@ -654,6 +739,8 @@ cv:
           - Azevedo, Rodolfo
         journal: 3rd IEEE International Conference on Electronics, Circuits and Systems (ICECS’16)
         date: "ICECS’16"
+        url: https://loisorosa.github.io/pdf/papers/temporal.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/temporal.pdf)"
 
       - title: Architecting a Computer with a Full Optical RAM
         authors:
@@ -662,6 +749,8 @@ cv:
           - Azevedo, Rodolfo
         journal: 3rd IEEE International Conference on Electronics, Circuits and Systems (ICECS’16)
         date: "ICECS’16"
+        url: https://loisorosa.github.io/pdf/papers/full_optical_ram.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/full_optical_ram.pdf)"
 
       - title: "Flexsig: Implementing Flexible Hardware Signatures"
         authors:
@@ -670,6 +759,8 @@ cv:
           - Bruguera, Javier D
         journal: ACM Transactions on Architecture and Code Optimization (TACO)
         date: "TACO’12"
+        url: https://loisorosa.github.io/pdf/papers/flexsig.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/flexsig.pdf)"
 
       - title: "Pacman: Tolerating Asymmetric Data Races with Unintrusive Hardware"
         authors:
@@ -680,6 +771,8 @@ cv:
           - Torrellas, Josep
         journal: 8th International Symposium on High Performance Computer Architecture (HPCA’12)
         date: "HPCA’12"
+        url: https://loisorosa.github.io/pdf/papers/pacman.pdf
+        summary: "[PDF](https://loisorosa.github.io/pdf/papers/pacman.pdf)"
 
     Workshops:
       - title: "LogSI-HTM: Log Based Snapshot Isolation in Hardware Transactional Memory"
@@ -696,6 +789,16 @@ cv:
         journal: Workshop on Dependable Multicore and Transactional Memory Systems (DMTM’14)
         date: "DMTM’14"
 
+    Book Chapters:
+      - title: Using Approximate DRAM for Enabling Energy-Efficient, High-Performance Deep Neural Network Inference
+        authors:
+          - Orosa, Lois
+          - Koppula, Skanda
+          - Kanellopoulos, Konstantinos
+          - Yaglikci, A Giray
+          - Mutlu, Onur
+        journal: "Embedded Machine Learning for Cyber-Physical, IoT, and Edge Computing: Hardware Architectures, chapter 10"
+        date: "Springer’23"
 
     Posters:
       - title: "CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations"
@@ -715,6 +818,7 @@ cv:
           - Mutlu, Onur
         journal: 9th IEEE International Symposium on Computer Architecture (ISCA’22),
         date: "ISCA’22"
+
 
       - title: "Dataplant: A Low-Cost In-DRAM Value Generation Primitive for Enabling System Security Features"
         authors:
@@ -794,14 +898,442 @@ cv:
         journal: 7th HiPEAC Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC’12),
         date: "HiPEAC’12"
     
-    #(Invited) Scientific Talks:
-      #- OneLineEntry:
-      #  details: "Computer Architecture Research in the Galicia Supercomputing Center: Challenges and Opportunities, 1st SAFARI Conference, "December 15th, 2025"
-        #authors:
-        #- Orosa, Lois
-        #journal: 
-        #date: 
 
+    (Invited) Research Talks:
+      - title: "Computer Architecture Research in the Galicia Supercomputing Center: Challenges and Opportunities"
+        authors:
+          - Orosa, Lois
+        date: "December 15th, 2025"
+        journal: "1st SAFARI Conference"
+        url: https://www.youtube.com/live/QtS7v8aVGLQ?si=g_eaHXAZvPvRYYCA
+        summary: "[Video](https://www.youtube.com/live/QtS7v8aVGLQ?si=g_eaHXAZvPvRYYCA)"
+        
+
+      - title: "CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations"
+        authors:
+          - Orosa, Lois
+        date: "February 10th, 2022"
+        journal: "SAFARI Seminar, Global Online event"
+        url: https://www.youtube.com/watch?v=BJrIdTXjnpg
+        summary: "[Video](https://www.youtube.com/watch?v=BJrIdTXjnpg)"
+
+      - title: "A Deeper Look into RowHammer's Sensitivities: Experimental Analysis of Real DRAM Chips and Implications on Future Attacks and Defenses"
+        authors:
+          - Orosa, Lois
+        date: "October 18th, 2022"
+        journal: "SAFARI P&S SoftMC 2022 Spring Semester"
+        url: https://www.youtube.com/watch?v=pQkahiKSNWU
+        summary: "[Video](https://www.youtube.com/watch?v=pQkahiKSNWU)"
+
+      - title: "A Deeper Look into RowHammer's Sensitivities: Experimental Analysis of Real DRAM Chips and Implications on Future Attacks and Defenses"
+        authors:
+          - Orosa, Lois
+        date: "October 21st, 2021"
+        journal: "54th IEEE International Symposium on Microarchitecture, Global Online event"
+
+      - title: "CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations"
+        authors:
+          - Orosa, Lois
+        date: "June 15th, 2021"
+        journal: "48th IEEE International Symposium on Computer Architecture, Global Online event"
+        url: https://www.youtube.com/watch?v=d1B8bHZt0B4
+        summary: "[Video](https://www.youtube.com/watch?v=d1B8bHZt0B4)"
+
+      - title: "FIGARO: Improving System Performance via Fine-grained in-DRAM Data Relocation and Caching"
+        authors:
+          - Orosa, Lois
+        date: "October 19th, 2020"
+        journal: "53rd IEEE/ACM International Symposium on Microarchitecture, Global Online event"
+        url: https://www.youtube.com/watch?v=GISBAaUzdKc
+        summary: "[Video](https://www.youtube.com/watch?v=GISBAaUzdKc)" 
+
+      - title: "More Capable and Efficient DRAM Main Memory Designs"
+        authors:
+          - Orosa, Lois
+        date: "January 30th, 2020"
+        journal: "Swiss Joint Research Center Workshop, École Polytechnique Fédérale de Lausanne (EPFL)"
+
+      - title: "EDEN: Enabling Energy-Efficient, High-Performance Deep Neural Network Inference Using Approximate DRAM"
+        authors:
+          - Orosa, Lois
+        date: "October 24th, 2019"
+        journal: "Computer Architecture Course (263-2210-00L), ETH Zurich"
+        url: https://www.youtube.com/watch?v=HmB32OXMKMY
+        summary: "[Video](https://www.youtube.com/watch?v=HmB32OXMKMY)"
+
+      - title: "AVPP: Address-first Value-next Predictor with Value Prefetching for Improving the Efficiency of Load Value Prediction"
+        authors:
+          - Orosa, Lois
+        date: "January 22nd, 2019"
+        journal: "14th HiPEAC Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC'19), Valencia, Spain"
+
+      - title: "ITAP: Idle-Time-Aware Power Management for GPU Execution Units"
+        authors:
+          - Orosa, Lois
+        date: "January 23rd, 2019"
+        journal: "14th HiPEAC Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC'19), Valencia, Spain"
+
+      - title: "Temporal Frequent Value Locality"
+        authors:
+          - Orosa, Lois
+        date: "July 6th, 2016"
+        journal: "27th Annual IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP'16), London, England"
+
+      - title: "Detecting, Exposing and Tolerating High Level Data Races"
+        authors:
+          - Orosa, Lois
+        date: "March 15th, 2016"
+        journal: "2nd Manycore Workshop on Micro architectural Challenges in Performance, Energy Efficiency and Resilience, Campinas, Brazil"
+
+      - title: "A Hardware Approach for Detecting, Exposing and Tolerating High Level Atomicity Violations"
+        authors:
+          - Orosa, Lois
+        date: "February 19th, 2016"
+        journal: "24th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP'16), Heraklion, Greece"
+
+      - title: "Revisiting Load Value Speculation"
+        authors:
+          - Orosa, Lois
+        date: "April 17th, 2015"
+        journal: "Seminar series, University of Campinas, Brazil"
+
+      - title: "Revisiting Load Value Speculation"
+        authors:
+          - Orosa, Lois
+        date: "March 19th, 2015"
+        journal: "Research Meeting: Performance, Energy and Reliability Challenges in Multi- and Many-core Platforms, Porto Alegre, Brazil"
+
+      - title: "A Hardware Approach for Detecting, Exposing and Tolerating High Level Atomicity Violations"
+        authors:
+          - Orosa, Lois
+        date: "January 22nd, 2014"
+        journal: "Workshop on Dependable Multicore and Transactional Memory Systems (DMTM), Vienna, Austria"
+
+      - title: "FlexSig: Implementing Flexible Hardware Signatures"
+        authors:
+          - Orosa, Lois
+        date: "January 23rd, 2012"
+        journal: "7th HiPEAC Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC'12), Paris, France"
+
+      - title: "A Cache Filtering Mechanism for Hardware Transactional Memory Systems Decoupled from Caches"
+        authors:
+          - Orosa, Lois
+        date: "2009"
+        journal: "XX Jornadas de Paralelismo, A Coruña, Spain"
+
+      - title: "Introduction to microprocessors and microcontrollers"
+        authors:
+          - Orosa, Lois
+        date: "July 2009"
+        journal: "XCARFOS Summer course (Days of automatic control and robotics with open source tools)"
+
+    Public Engagement and Institutional Impact (Incomplete):
+      - title: "Round table and talk: Galicia's Quantum Strategy, Projects and Infraestructures"
+        authors:
+          - Orosa, Lois
+        date: "April 20-21, 2026"
+        journal: "Italy-Spain bilateral Meeting on Quantum Technologies, Madrid (Italian Embassy and Blas Cabrera Institute)"
+
+      - title: "Talk: Centro de Supercomputación de Galicia (CESGA): Unha oportunidade para o ecosistema de I+D+i de Galicia"
+        authors:
+          - Orosa, Lois
+        date: "April 10, 2026"
+        journal: "TTick Talks (Attlantic, UVIGO)"
+
+      - title: "Talk: 1HealthAI: Factoría Europea de IA para Unha Soa Saúde"
+        authors:
+          - Orosa, Lois
+        date: "April 9, 2026"
+        journal: "Cátedra Camelia (CiTIUS)"
+
+      - title: "Talk: Centro de Supercomputación de Galicia (CESGA)"
+        authors:
+          - Orosa, Lois
+        date: "April 9, 2026"
+        journal: "Visit of Óscar López, Ministry of Digital Transformation of Spain"
+
+      - title: "Talk: 1HealthAI: a intelixencia artificial ao servizo da saúde, da biotecnoloxía e da transformación do coñecemento"
+        authors:
+          - Orosa, Lois
+        date: "February 4, 2026"
+        journal: "Acto de entrega dos Premios de Investigación en Saúde Transfronteiriza Galicia–Norte de Portugal (PISGa)"
+
+      - title: "Round Table: Infraestruturas e dados abertos (CESGA e DEUCALION)"
+        authors:
+          - Orosa, Lois
+        date: "March 13, 2026"
+        journal: "II Encontro Luso-Galaico de PLN, Santiago de Compostela"
+
+      - title: "O IGFAE e o CESGA impulsan o Quantum Computing Lab"
+        authors:
+          - Orosa, Lois
+        date: "January 14, 2026"
+        journal: "IGFAE (USC)"
+        url: https://igfae.usc.es/igfae/quantum-computing-lab-igfae-cesga/
+        summary: "[Web](https://igfae.usc.es/igfae/quantum-computing-lab-igfae-cesga/)"
+
+      - title: "La UVigo albergará un nuevo laboratorio de computación cuántica óptica de vanguardia (VQCC-CESGA Quantum Optical Computing Lab)"
+        authors:
+          - Orosa, Lois
+        date: "January 15, 2026"
+        journal: "Radio Vigo (Cadena SER)"
+        url: https://cadenaser.com/galicia/2026/01/15/la-uvigo-albergara-un-nuevo-laboratorio-de-computacion-optica-de-vanguardia-radio-vigo/
+        summary: "[Web](https://cadenaser.com/galicia/2026/01/15/la-uvigo-albergara-un-nuevo-laboratorio-de-computacion-optica-de-vanguardia-radio-vigo/)"
+        
+      - title: "Interview: Lois Orosa, director del Cesga, sobre la nueva fábrica de IA: Va a ser una puerta a Europa"
+        authors:
+          - Orosa, Lois
+        date: "December 23, 2025"
+        journal: "Economía Digital Galicia"
+        url: https://www.economiadigital.es/galicia/actualidad/lois-orosa-director-del-cesga-entrevista.html
+        summary: "[Web](https://www.economiadigital.es/galicia/actualidad/lois-orosa-director-del-cesga-entrevista.html)"
+
+      - title: "Interview: Lois Orosa, director do CESGA: A factoría de IA é unha porta a Europa dende Santiago"
+        authors:
+          - Orosa, Lois
+        date: "October 23, 2025"
+        journal: "COPE Galicia"
+        url: https://www.cope.es/emisoras/galicia/noticias/lois-orosa-director-do-cesga-factoria-ia-e-unha-porta-europa-dende-santiago-20251023_3236319.html
+        summary: "[Web](https://www.cope.es/emisoras/galicia/noticias/lois-orosa-director-do-cesga-factoria-ia-e-unha-porta-europa-dende-santiago-20251023_3236319.html)"
+
+      - title: "¿Por qué la factoría europea de IA convertirá a Galicia en referente mundial en innovación en salud?"
+        authors:
+          - Orosa, Lois
+        date: "October 11, 2025"
+        journal: "La Voz de Galicia"
+        url: https://www.lavozdegalicia.es/noticia/sociedad/2025/10/10/factoria-europea-ia-convertira-galicia-referente-mundial-innovacion-salud/00031760104382208226382.htm
+        summary: "[Web](https://www.lavozdegalicia.es/noticia/sociedad/2025/10/10/factoria-europea-ia-convertira-galicia-referente-mundial-innovacion-salud/00031760104382208226382.htm)"
+
+      - title: "Galicia logra un hito histórico al poner en marcha la línea de comunicación cuántica más larga de España"
+        authors:
+          - Orosa, Lois
+        date: "October 9, 2025"
+        journal: "esRadio (Libertad Digital)"
+        url: https://esradio.libertaddigital.com/galicia/2025-10-09/galicia-logra-un-hito-historico-al-poner-en-marcha-la-linea-de-comunicacion-cuantica-mas-larga-de-espana-7306146/
+        summary: "[Web](https://esradio.libertaddigital.com/galicia/2025-10-09/galicia-logra-un-hito-historico-al-poner-en-marcha-la-linea-de-comunicacion-cuantica-mas-larga-de-espana-7306146/)"
+
+
+      - title: "Europa quiere ganar soberanía con la inteligencia artificial en Galicia con una fábrica pionera"
+        authors:
+          - Orosa, Lois
+        date: "October 15, 2025"
+        journal: "COPE (La Linterna)"
+        url: https://www.cope.es/programas/la-linterna/ciencia-con-jorge-alcalde/audios/europa-quiere-ganar-soberania-inteligencia-artificial-galicia-fabrica-pionera-crearan-cientos-empleos-directos-e-indirectos-20251015_3232875.html
+        summary: "[Web](https://www.cope.es/programas/la-linterna/ciencia-con-jorge-alcalde/audios/europa-quiere-ganar-soberania-inteligencia-artificial-galicia-fabrica-pionera-crearan-cientos-empleos-directos-e-indirectos-20251015_3232875.html)"
+
+      - title: "Así será la nueva sede del Cesga en A Sionlla: las obras arrancarán en octubre"
+        authors:
+          - Orosa, Lois
+        date: "August 13, 2025"
+        journal: "El Correo Gallego"
+        url: https://www.elcorreogallego.es/santiago/2025/08/13/sera-nueva-sede-cesga-sionlla-120564548.html
+        summary: "[Web](https://www.elcorreogallego.es/santiago/2025/08/13/sera-nueva-sede-cesga-sionlla-120564548.html)"
+
+      - title: "Galicia enciende el computador cuántico más potente de España"
+        authors:
+          - Orosa, Lois
+        date: "July 4, 2025"
+        journal: "La Voz de Galicia"
+        url: https://www.lavozdegalicia.es/noticia/galicia-innova/2023/07/27/galicia-enciende-computador-cuantico-potente-espana/0003_202307SO27P5991.htm
+        summary: "[Web](https://www.lavozdegalicia.es/noticia/galicia-innova/2023/07/27/galicia-enciende-computador-cuantico-potente-espana/0003_202307SO27P5991.htm)"
+
+      - title: "Qmio, el supercomputador cuántico que consolida la posición estratégica del I+D+i gallego"
+        authors:
+          - Orosa, Lois
+        date: "May 26, 2025"
+        journal: "El Correo Gallego"
+        url: https://www.elcorreogallego.es/galicia/2025/05/26/qmio-supercomputador-cuantico-consolida-posicion-estrategica-i-d-i-117810591.html
+        summary: "[Web](https://www.elcorreogallego.es/galicia/2025/05/26/qmio-supercomputador-cuantico-consolida-posicion-estrategica-i-d-i-117810591.html)"
+
+      - title: "El sector biotech gallego confía en el Cesga para acelerar el descubrimiento de fármacos"
+        authors:
+          - Orosa, Lois
+        date: "April 16, 2025"
+        journal: "La Voz de Galicia"
+        url: https://www.lavozdegalicia.es/noticia/santiago/2025/04/16/sector-biotech-gallego-confia-cesga-acelerar-descubrimiento-farmacos/0003_202504S16C4993.htm
+        summary: "[Web](https://www.lavozdegalicia.es/noticia/santiago/2025/04/16/sector-biotech-gallego-confia-cesga-acelerar-descubrimiento-farmacos/0003_202504S16C4993.htm)"
+
+      - title: "El ecosistema biotech gallego afianza su apuesta para que la computación de altas prestaciones del Cesga reduzca costes y acelere el descubrimiento de fármacos"
+        authors:
+          - Orosa, Lois
+        date: "April 15, 2025"
+        journal: "Bioga"
+        url: https://www.bioga.org/el-ecosistema-biotech-gallego-afianza-su-apuesta-para-que-la-computacion-de-altas-prestaciones-del-cesga-reduzca-costes-y-acelere-el-descubrimiento-de-farmacos/
+        summary: "[Web](https://www.bioga.org/el-ecosistema-biotech-gallego-afianza-su-apuesta-para-que-la-computacion-de-altas-prestaciones-del-cesga-reduzca-costes-y-acelere-el-descubrimiento-de-farmacos/)"
+
+      - title: "Lois Orosa en De 0 a 100: O maior valor do Cesga é o apoio á comunidade científica"
+        authors:
+          - Orosa, Lois
+        date: "December 5, 2024"
+        journal: "La Voz de Asturias"
+        url: https://www.lavozdeasturias.es/noticia/sociedad/2024/12/05/lois-orosa-0-100-maior-valor-cesga-apoio-comunidade-cientifica/00031733393190939195227.htm
+        summary: "[Web](https://www.lavozdeasturias.es/noticia/sociedad/2024/12/05/lois-orosa-0-100-maior-valor-cesga-apoio-comunidade-cientifica/00031733393190939195227.htm)"
+
+      - title: "Hablan las protagonistas del mural de Yoseba MP que une superabuelas y computación cuántica"
+        authors:
+          - Orosa, Lois
+        date: "November 30, 2024"
+        journal: "La Voz de Galicia"
+        url: https://www.lavozdegalicia.es/noticia/galicia/2024/11/30/hablan-protagonistas-mural-yoseba-mp-une-superabuelas-computacion-cuantica/0003_202411S30C4993.htm
+        summary: "[Web](https://www.lavozdegalicia.es/noticia/galicia/2024/11/30/hablan-protagonistas-mural-yoseba-mp-une-superabuelas-computacion-cuantica/0003_202411S30C4993.htm)"
+
+      - title: "La Xunta aprobará el lunes la licitación de la obra de la nueva sede del Cesga en A Sionlla"
+        authors:
+          - Orosa, Lois
+        date: "October 19, 2024"
+        journal: "La Voz de Galicia"
+        url: https://www.lavozdegalicia.es/noticia/santiago/2024/10/19/xunta-aprobara-lunes-licitacion-obra-nueva-sede-cesga-sionlla/0003_202410S19C5991.htm
+        summary: "[Web](https://www.lavozdegalicia.es/noticia/santiago/2024/10/19/xunta-aprobara-lunes-licitacion-obra-nueva-sede-cesga-sionlla/0003_202410S19C5991.htm)"
+
+      - title: "La Xunta asegura que la nueva sede del Centro de Supercomputación situará Galicia a la vanguardia en Europa"
+        authors:
+          - Orosa, Lois
+        date: "October 18, 2024"
+        journal: "Galicia Press (Europa Press)"
+        url: https://www.galiciapress.es/articulo/ultima-hora/2024-10-18/5037267-xunta-asegura-nueva-sede-centro-supercomputacion-situara-galicia-vanguardia-europa
+        summary: "[Web](https://www.galiciapress.es/articulo/ultima-hora/2024-10-18/5037267-xunta-asegura-nueva-sede-centro-supercomputacion-situara-galicia-vanguardia-europa)"
+
+      - title: "Jornada de Usuarios 2024"
+        authors:
+          - Orosa, Lois
+        date: "June 6, 2024"
+        journal: "CESGA"
+        url: https://www.cesga.es/en/jornada-de-usuarios-2024-2/
+        summary: "[Web](https://www.cesga.es/en/jornada-de-usuarios-2024-2/)"
+
+      - title: "CESGA, unha Infraestructura na Vangarda da Computación Europea"
+        authors:
+          - Orosa, Lois
+        date: "December 18, 2023"
+        journal: "Os luns no Ateneo, Santiago de Compostela"
+        url: https://www.youtube.com/watch?v=BoEUhqSDh-M
+        summary: "[Video](https://www.youtube.com/watch?v=BoEUhqSDh-M)"
+
+      - title: "Galicia por Diante Fin de Semana"
+        authors:
+          - Orosa, Lois
+          - López, Ignacio
+        date: "November 19, 2023"
+        journal: "Regional radio (RTVG)"
+        url: https://www.crtvg.es/rg/destacados/galicia-por-diante-fin-de-semana-galicia-por-diante-fin-de-semana-do-dia-19-11-2023-6319988
+        summary: "[Web](https://www.crtvg.es/rg/destacados/galicia-por-diante-fin-de-semana-galicia-por-diante-fin-de-semana-do-dia-19-11-2023-6319988)"
+
+      - title: "Talk: CESGA in the Quantum Computing Era"
+        authors:
+          - Orosa, Lois
+        date: "October 27, 2023"
+        journal: "Corunna Innovate Summit, Coruña"
+
+      - title: "Interview for Sois los primeros"
+        authors:
+          - Orosa, Lois
+        date: "October 22, 2023"
+        journal: "esRadio"
+        url: https://esradio.libertaddigital.com/2023-10-22/
+        summary: "[Web](https://esradio.libertaddigital.com/2023-10-22/)"
+
+      - title: "El Correo Gallego mesa redonda FUTURIBLES"
+        authors:
+          - Orosa, Lois
+          - Alonso, Manuel Ángel
+          - Otero, María Antonia
+        date: "October 19, 2023"
+        journal: "El Correo Gallego, Santiago de Compostela"
+        url: https://www.elcorreogallego.es/economia/2023/10/20/mayor-inversion-d-amplio-mapa-93567145.html
+        summary: "[Web](https://www.elcorreogallego.es/economia/2023/10/20/mayor-inversion-d-amplio-mapa-93567145.html)"
+
+      - title: "Interview for TVG"
+        authors:
+          - Orosa, Lois
+        date: "October 14, 2023"
+        journal: "Galicia Regional Television (TVG)"
+        url: https://www.g24.gal/-/o-ordenador-cuantico-mais-potente-do-sur-de-europa-esta-en-santiago?p_l_back_url=%2Fsearch%3Fq%3Dqmio
+        summary: "[Web](https://www.g24.gal/-/o-ordenador-cuantico-mais-potente-do-sur-de-europa-esta-en-santiago?p_l_back_url=%2Fsearch%3Fq%3Dqmio)"
+
+      - title: "Reportaxe TVG"
+        authors:
+          - Orosa, Lois
+        date: "October 4, 2023"
+        journal: "Galicia Regional Television (TVG)"
+        url: https://www.g24.gal/-/o-ordenador-cuantico-mais-potente-do-sur-de-europa-comeza-a-funcionar-en-santiago
+        summary: "[Web](https://www.g24.gal/-/o-ordenador-cuantico-mais-potente-do-sur-de-europa-comeza-a-funcionar-en-santiago)"
+
+      - title: "QMIO Report"
+        authors:
+          - Orosa, Lois
+        date: "October 3, 2023"
+        journal: "CESGA"
+        url: https://www.20minutos.es/tecnologia/moviles-dispositivos/espana-tiene-ordenador-cuantico-qmio-mas-cubits-sur-europa-5178179/
+        summary: "[Web](https://www.20minutos.es/tecnologia/moviles-dispositivos/espana-tiene-ordenador-cuantico-qmio-mas-cubits-sur-europa-5178179/)"
+
+      - title: "QMIO Premiere"
+        authors:
+          - Orosa, Lois
+        date: "October 2, 2023"
+        journal: "CESGA"
+        url: https://www.youtube.com/watch?v=FKqU03KwdbE
+        summary: "[Video](https://www.youtube.com/watch?v=FKqU03KwdbE)"
+
+      - title: "Galicia Quantum Technologies Hub: Presentation Act"
+        authors:
+          - Orosa, Lois
+        date: "July 15, 2022"
+        journal: "Santiago de Compostela"
+        url: https://www.youtube.com/watch?v=YYQKlykm_PM
+        summary: "[Video](https://www.youtube.com/watch?v=YYQKlykm_PM)"
+
+      - title: "Fujitsu-CESGA Collaboration Agreement"
+        authors:
+          - Orosa, Lois
+        date: "April 21, 2023"
+        journal: "CESGA"
+        url: https://www.youtube.com/watch?v=y54Xvqcqa1Y
+        summary: "[Video](https://www.youtube.com/watch?v=y54Xvqcqa1Y)"
+
+      - title: "Quantum Computing Report"
+        authors:
+          - Orosa, Lois
+        date: "March 20, 2023"
+        journal: "GCiencia"
+        url: https://www.gciencia.com/tecno/novo-computador-cuantico-chaves/?utm_source=mailpoet&utm_medium=email&utm_campaign=asi-foi-o-dia-en-gciencia_1
+        summary: "[Web](https://www.gciencia.com/tecno/novo-computador-cuantico-chaves/?utm_source=mailpoet&utm_medium=email&utm_campaign=asi-foi-o-dia-en-gciencia_1)"
+
+      - title: "Finisterrae III Report"
+        authors:
+          - Orosa, Lois
+        date: "October 14, 2022"
+        journal: "El País"
+        url: https://elpais.com/tecnologia/2022-10-14/viaje-a-las-entranas-de-finis-terrae-iii-el-otro-supercerebro-de-espana.html
+        summary: "[Web](https://elpais.com/tecnologia/2022-10-14/viaje-a-las-entranas-de-finis-terrae-iii-el-otro-supercerebro-de-espana.html)"
+
+      - title: "Interview: Finisterrae III"
+        authors:
+          - Orosa, Lois
+          - Martell, Chema
+        date: "October 3, 2022"
+        journal: "A Golpe de Bit (RTVE)"
+
+      - title: "Finisterrae III Premiere"
+        authors:
+          - Orosa, Lois
+        date: "May 20, 2022"
+        journal: "CESGA"
+
+      - title: "Interview for Radio Galega"
+        authors:
+          - Orosa, Lois
+        date: "March 10, 2022"
+        journal: "Galicia Regional Radio (RTVG)"
+        url: https://www.crtvg.es/rg/destacados/a-tarde-a-tarde-do-dia-10-03-2022-5557961?t=2
+        summary: "[Web](https://www.crtvg.es/rg/destacados/a-tarde-a-tarde-do-dia-10-03-2022-5557961?t=2)"
+
+      - title: "El compostelano Lois Orosa será el nuevo director del Centro de Supercomputación de Galicia"
+        authors:
+          - Orosa, Lois
+        date: "February 24, 2022"
+        journal: "El Correo Gallego"
+        url: https://www.elcorreogallego.es/galicia/2022/02/24/compostelano-lois-orosa-sera-nuevo-109726137.html
+        summary: "[Web](https://www.elcorreogallego.es/galicia/2022/02/24/compostelano-lois-orosa-sera-nuevo-109726137.html)"
 
     #Undergraduate Thesis:
     #  - name: ""
@@ -825,6 +1357,90 @@ cv:
     #      - "HiPEAC Industrial PhD Internship, Recore Systems, Enschede (Netherlands), 4 months, 5.000 EUR."
     #      - "HiPEAC Industrial PhD Internship, IBM Haifa (Israel), 3 months, 5.000 EUR."
     #      - "Researcher in the project “Hardware and software support for high performance computing" (TIN2010-17541),185.400 EUR."
+    Projects:
+      - title: "PI of the 1HealthAI Factory"
+        date: 2025
+        authors:
+          - ""
+        awarder: "European Commission"
+        summary: "PI of the 1HealthAI Factory, granted to CESGA. **82.000.000 EUR**."
+
+      - title: "PI of the Experimental Platform (1HealthAI AI Factory)"
+        date: 2025
+        authors:
+          - ""
+        awarder: "European Commission"
+        summary: "Build reliable, secure and efficient computer systems for AI, and building Quantum Computing systems. **4.000.000 EUR**."
+
+      - title: "IN607D 2025/12 - Axudas do Programa de Consolidación e Estructuración de Unidades de Investigación Competitivas"
+        date: 2025
+        authors:
+          - ""
+        awarder: "Xunta de Galicia"
+        summary: "PI of the project 'Memorias e sistemas de computación eficientes e seguros'. **115.000 EUR**."
+
+      - title: "CNS2024-154583 - Consolidación Investigadora"
+        date: 2024
+        authors:
+          - ""
+        awarder: "Ministry of Science of Spain"
+        summary: "PI of the project 'DRAM Security in High Performance Computing Systems'. **199.927 EUR**."
+
+      - title: "RYC2023-045785-I - Ramón y Cajal Tenure Track Contract"
+        date: 2023
+        authors:
+          - ""
+        awarder: "Ministry of Science of Spain"
+        summary: "Ranked 1st in Information and Communication Technologies area. Title: More Capable, Secure and Efficient DRAM Main Memory Designs and Computer Architectures. Score: 100/100. **251.800 EUR**."
+
+      - title: "Researcher - Memory System Design for AI/ML Accelerators & ML/AI Techniques for Memory System Design"
+        date: 2022
+        authors:
+          - ""
+        awarder: "Semiconductor Research Corporation (SRC)"
+        summary: "Task 2946.001, 1 year. **100.000 CHF**."
+
+      - title: "FAPESP 2016/18929-4 - Speculative Techniques for Reducing the Memory Bottleneck Problem"
+        date: 2016
+        authors:
+          - ""
+        awarder: "FAPESP"
+        summary: "ETH Zurich, Switzerland, 1 year. **68.735 CHF**."
+
+      - title: "FAPESP 2014/03840-2 - Architecture Support for Speculative Program Execution"
+        date: 2014
+        authors:
+          - ""
+        awarder: "FAPESP"
+        summary: "University of Campinas, Brazil, 3 years. **239.990 BRL**."
+
+      - title: "Euro-TM Short Term Scientific Mission"
+        date: 2013
+        authors:
+          - ""
+        awarder: "European Cooperation in Science and Technology (COST)"
+        summary: "Universidade Nova de Lisboa, Lisbon, Portugal, 3 months. **3.500 EUR**."
+
+      - title: "HiPEAC Industrial PhD Internship - Recore Systems"
+        date: 2012
+        authors:
+          - ""
+        awarder: "HiPEAC"
+        summary: "Recore Systems, Enschede, Netherlands, 4 months. **5.000 EUR**."
+
+      - title: "HiPEAC Industrial PhD Internship - IBM Haifa"
+        date: 2010
+        authors:
+          - ""
+        awarder: "HiPEAC"
+        summary: "IBM Haifa, Israel, 3 months. **5.000 EUR**."
+
+      - title: "Researcher - Hardware and software support for high performance computing (TIN2010-17541)"
+        date: 2010
+        authors:
+          - ""
+        awarder: "Ministry of Science of Spain"
+        summary: "**185.400 EUR**."
 
     Honors and Awards:
       - title: Top Pick in Hardware and Embedded Security 2025
@@ -841,7 +1457,7 @@ cv:
         date: 2023
         awarder: Ministry of Science of Spain
         url: https://loisorosa.github.io/assets/pdf/honors_awards/RESOLUCION_ELEGIBLES_Y_ RESERVAS_ RYC_2023.pdf
-        summary: Ranked 1st in Information and Communication Technologies area. Title  More Capable, Secure and Efficient DRAM Main Memory Designs and Computer Architectures. Score 100/100, 251.800 EUR
+        summary: Ranked 1st in Information and Communication Technologies area. Title  More Capable, Secure and Efficient DRAM Main Memory Designs and Computer Architectures. **Score 100/100**, 251.800 EUR
 
       - title: R3 Certificate (established researcher)
         authors:
@@ -849,16 +1465,8 @@ cv:
         date: 2023
         awarder: Ministry of Science of Spain
         url: https://loisorosa.github.io/assets/pdf/honors_awards/Resolucion_concesion_II_CR32023.pdf
-        summary: Certificate given to researchers who have developed a level of independence. Score 96/100.
+        summary: Certificate given to researchers who have developed a level of independence. **Score 96/100**.
 
-      - title: 18 HiPEAC paper awards
-        authors:
-          - "HiPEAC"
-        date: Since 2017
-        awarder: HiPEAC
-        url: https://loisorosa.github.io/assets/pdf/honors_awards/hipeac_awards/
-        summary: I received 18 HiPEAC paper awards since 2017. The HiPEAC Paper Award aims to encourage HiPEAC members to publish their work at conferences in which Europe is not strongly represented. The award is given to a HiPEAC member who presents a full paper in one of the following list of conferences, ASPLOS, DAC, FCCM, HPCA, ISCA, MICRO, PLDI, POPL
-    
       - title: Intel Hardware Security Academic Award 2022
         authors:
           - "Intel"
@@ -868,10 +1476,73 @@ cv:
         summary: "The paper BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows was nominated as a finalist for the Intel Hardware Security Academic Award 2022 (one of 4 finalists out of 34 nominations)"
 
 
+      - title: 18 HiPEAC paper awards
+        authors:
+          - "HiPEAC"
+        date: Since 2017
+        awarder: HiPEAC
+        url: https://loisorosa.github.io/assets/pdf/honors_awards/hipeac_awards/
+        summary: I received **18 HiPEAC paper awards since 2017**. The HiPEAC Paper Award aims to encourage HiPEAC members to publish their work at conferences in which Europe is not strongly represented. The award is given to a HiPEAC member who presents a full paper in one of the following list of conferences, ASPLOS, DAC, FCCM, HPCA, ISCA, MICRO, PLDI, POPL
     
-    Services:
+
+    PhD Students:
+      - name: Jorge Luis Gonzalez Reaño
+        position: PhD Student
+        start_date: 2014-01
+        end_date: 2021-12
+        location: University of Campinas, Brazil
+        summary: "Thesis: Photonics opportunities in modern computing systems"
+        highlights:
+          - "Co-advised with Rodolfo Azevedo"
+
+    Teaching Experience:
+      - company: ETH Zurich
+        position: Teaching Assistant
+        start_date: 2017-09
+        end_date: 2021-12
+        location: Zurich, Switzerland
+        highlights:
+          - "263-2210-00L - Computer Architecture [Fall'17, Fall'19, Fall'20, Fall'21]"
+          - "263-2211-00L - Seminar in Computer Architecture [Spring'19, Fall'19, Spring'20, Fall'20, Spring'21, Fall'21]"
+          - "252-0028-00L - Digital Design and Computer Architecture [Spring'19, Spring'20, Spring'21]"
+
+      - company: Institute of Computing, University of Campinas
+        position: Lecturer
+        start_date: 2016-01
+        end_date: 2016-06
+        location: Campinas, Brazil
+        highlights:
+          - "MC102 - Algorithms and Computer Programming (90h), Spring'16"
+
+    Service:
       - name: Program Committees
-        summary: "ICS26, DSN24, DSN23, ASHES22, ASHES21"
+        highlights:
+          - The 40th ACM International Conference on Supercomputing (ICS 2026)
+          - The 54th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2024)
+          - The 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2023)
+          - Sixth Workshop on Attacks and Solutions in Hardware Security (ASHES 2022), co-located with ACM CCS 2022
+          - Fifth Workshop on Attacks and Solutions in Hardware Security (ASHES 2021), co-located with ACM CCS 2021
+      - name: Organizing Committees
+        highlights:
+          - "Quantum Information in Spain 2023 (ICE-8)"
+      - name: Reviewer
+        highlights:
+          - Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) [2025, 2026]
+          - Transactions on Dependable and Secure Computing (TDSC) [2025]
+          - The Supercomputing Journal [2023]
+          - Transactions on Information Forensics & Security (TIFS) [2022]
+          - ACM Computing Surveys (CSUR) [2020]
+          - Transactions on Architecture and Code Optimization (TACO) [2020]
+          - IEEE MICRO [2019, 2020]
+          - Computers and Security [2019]
+          - Design, Automation and Test in Europe Conference (DATE) [2019]
+          - IEEE Transactions on Computers [2015, 2016, 2017, 2019, 2024]
+          - ERAD-SP [2018]
+          - Journal of Universal Computer Science [2018]
+      - name: Member of the Board of Trustees
+        highlights:
+          - Galtia Foundation for attracting high-level research talent (GALTIA) [2026]
+
     Skills:
       - name: Programming Languages
         summary: "C/C++, assembly, Python, Perl, Java, VHDL, Latex"
@@ -891,6 +1562,10 @@ cv:
 
 design:
   theme: sb2nov #engineeringclassic
+  templates:
+    publication_entry:
+      main_column: "\"***TITLE***\", AUTHORS, *JOURNAL*. SUMMARY"
+
   # page:
   #   size: us-letter
   #   top_margin: 0.7in
@@ -1060,7 +1735,7 @@ locale:
 settings:
   current_date: today
   render_command:
-    output_folder: rendercv_output
+    output_folder: ../assets/rendercv/rendercv_output
     design:
     locale:
     typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ

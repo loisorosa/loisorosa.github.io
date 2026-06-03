@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Papers, bibs, pdfs, slides
+description: You will find papers, bibs, pdfs and slides.
 nav: true
 nav_order: 2
 ---

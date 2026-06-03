@@ -1,0 +1,28 @@
+{% comment %}
+  Unified skills entry renderer for both formats
+  - RenderCV uses: name, summary
+  - JSONResume uses: language, fluency
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <div class="skills-item">
+      {% if entry.icon %}
+        <i class="{{ entry.icon }}"></i>
+      {% endif %}
+      {% capture skill_group %}
+        {% if entry.name %}{{ entry.name }}{% elsif entry.skillsg %}{{ entry.skillsg }}{% endif %}
+      {% endcapture %}
+      {% capture skill_name %}
+        {% if entry.summary %}{{ entry.summary }}{% elsif entry.skilln %}{{ entry.skilln }}{% endif %}
+      {% endcapture %}
+      <strong>{{ skill_group }}:</strong> {{ skill_name }}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .skills-item {
+    padding: 0.5rem 0;
+  }
+</style>

@@ -1,0 +1,60 @@
+{% comment %}
+  Unified publications entry renderer for both formats
+  RenderCV: title, authors, journal, date
+  JSONResume: title, publisher, releaseDate, url, summary
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <div style="border-top: 1px solid #dee2e6; padding: 1rem 0;">
+      <div class="container-fluid px-0">
+        <div class="row align-items-start">
+          {% capture pub_date %}
+            {% if entry.date %}{{ entry.date }}{% elsif entry.releaseDate %}{{ entry.releaseDate }}{% endif %}
+          {% endcapture %}
+
+          <div class="col-3 col-sm-3 col-md-3 date-column d-flex flex-column align-items-end justify-content-start pr-3">
+            {% if pub_date != '' %}
+              <span class="badge font-weight-bold text-uppercase align-middle" style="min-width: 75px; background-color: var(--global-theme-color); color: white; display: block; text-align: center;">
+                {{ pub_date | split: '-' | first }}
+              </span>
+            {% endif %}
+          </div>
+
+          <div class="col-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold">
+                <a href="{{ entry.url }}">{{ entry.title | default: entry.name }}</a>
+              </h6>
+            {% elsif entry.title %}
+              <h6 class="title font-weight-bold">{{ entry.title }}</h6>
+            {% endif %}
+
+            {% if entry.authors %}
+              <p style="font-size: 0.85rem; margin-bottom: 0.25rem;">
+                {% for author in entry.authors %}
+                  {% if author == 'Orosa, Lois' or author == 'Lois Orosa' %}
+                    <strong>{{ author }}</strong>
+                  {% else %}
+                    {{ author }}
+                  {% endif %}
+                  {% unless forloop.last %}; {% endunless %}
+                {% endfor %}
+              </p>
+            {% endif %}
+
+            {% if entry.journal %}
+              <p style="font-size: 0.85rem; font-style: italic; margin-bottom: 0;">{{ entry.journal }}</p>
+            {% elsif entry.publisher %}
+              <p style="font-size: 0.85rem; font-style: italic; margin-bottom: 0;">{{ entry.publisher }}</p>
+            {% endif %}
+
+            {% if entry.summary %}
+              <p style="font-size: 0.85rem; margin-top: 0.25rem;">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
