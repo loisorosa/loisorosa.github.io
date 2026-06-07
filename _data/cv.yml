@@ -239,8 +239,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE access
         date: "ACCESS’24"
-        url: https://loisorosa.github.io/pdf/papers/SpyHammer-ACCESS24.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/SpyHammer-ACCESS24.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/spyhammer.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/spyhammer.pdf)"
 
 
 
@@ -257,8 +257,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD’23)
         date: "TCAD’23"
-        url: https://loisorosa.github.io/pdf/papers/DRAMbender-TCAD23.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/DRAMbender-TCAD23.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/drambender.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/drambender.pdf)"
 
 
       - title: "Alp: Alleviating cpu-memory data movement overheads in memory-centric systems"
@@ -275,8 +275,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Transactions on Emerging Topics in Computing (TETC’22)
         date: "TETC’22"
-        url: https://loisorosa.github.io/pdf/papers/Alp-TETC22.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/Alp-TETC22.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/alp.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/alp.pdf)"
 
       - title: "EcoFlow: Efficient Convolutional Dataflows on Low-Power Neural Network Accelerators"
         authors:
@@ -291,8 +291,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Transactions on Computers (TC’23)
         date: "TC’23"
-        url: https://loisorosa.github.io/pdf/papers/ecoflow.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/ecoflow.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/ecoflow.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/ecoflow.pdf)"
 
       - title: "Understanding Rowhammer under Reduced Wordline Voltage: An experimental study using real dram devices"
         authors:
@@ -308,8 +308,8 @@ cv:
           - Mutlu, Onur
         journal: 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN’22)
         date: "DSN’22"
-        url: https://loisorosa.github.io/pdf/papers/rowhammer_voltage.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/rowhammer_voltage.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/rowhammer_voltage.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/rowhammer_voltage.pdf)"
 
       - title: "pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables"
         authors:
@@ -326,8 +326,8 @@ cv:
           - Mutlu, Onur
         journal: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO’22)
         date: "MICRO’22"
-        url: https://loisorosa.github.io/pdf/papers/pluto.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/pluto.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/pluto.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/pluto.pdf)"
 
       - title: "Hira: Hidden Row Activation for Reducing Refresh Latency of Off-The DRAM Chips"
         authors:
@@ -340,8 +340,8 @@ cv:
           - Mutlu, Onur
         journal: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO’22)
         date: "MICRO’22"
-        url: https://loisorosa.github.io/pdf/papers/hira.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/hira.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/hira.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/hira.pdf)"
 
       - title: "NEON: Enabling Efficient Support for Nonlinear Operations in Resistive RAM-based Neural Network Accelerators"
         authors:
@@ -354,8 +354,8 @@ cv:
           - Mutlu, Onur
         journal: arXiv preprint arXiv:2211.05730
         date: "arXiv’22"
-        url: https://loisorosa.github.io/pdf/papers/neon.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/neon.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/neon.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/neon.pdf)"
 
       - title: Optically Connected Memory for Disaggregated Data Centers
         authors:
@@ -369,8 +369,8 @@ cv:
           - Azevedo, Rodolfo
         journal: Journal of Parallel and Distributed Computing (JPDC’22)
         date: "JPDC’22"
-        url: https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/optical_sbacpad2020.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/optical_sbacpad2020.pdf)"
 
       - title: "DR-STRaNGe: End-to-end System Design for DRAM-based True Random Number Generators"
         authors:
@@ -384,8 +384,8 @@ cv:
           - Mutlu, Onur
         journal: 28th IEEE International Symposium on High-Performance Computer Architecture (HPCA’22)
         date: "HPCA’22"
-        url: https://loisorosa.github.io/pdf/papers/drstrange.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/drstrange.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/drstrange.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/drstrange.pdf)"
 
       - title: "IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors"
         authors:
@@ -399,8 +399,8 @@ cv:
           - Mutlu, Onur
         journal: 48th IEEE International Symposium on Computer Architecture (ISCA’21)
         date: "ISCA’21"
-        url: https://loisorosa.github.io/pdf/papers/ichannels.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/ichannels.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/ichannels.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/ichannels.pdf)"
 
       - title: "A Deeper Look into RowHammer’s sensitivities: Experimental analysis of real DRAM Chips and Implications on Future Attacks and Defenses"
         authors:
@@ -415,8 +415,8 @@ cv:
           - Mutlu, Onur
         journal: 54th IEEE/ACM International Symposium on Microarchitecture (MICRO’21)
         date: "MICRO’21"
-        url: https://loisorosa.github.io/pdf/papers/deeper_look.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/deeper_look.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/deeperlook.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/deeperlook.pdf)"
 
       - title: Reducing Solid-state Drive Read Latency by Optimizing Read-retry
         authors:
@@ -428,8 +428,8 @@ cv:
           - Mutlu, Onur
         journal: 26th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’21)
         date: "ASPLOS’21"
-        url: https://loisorosa.github.io/pdf/papers/reducing.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/reducing.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/reducing.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/reducing.pdf)"
 
       - title: "SynCron: Efficient Synchronization Support for Near-data-processing Architectures"
         authors:
@@ -445,8 +445,8 @@ cv:
           - Mutlu, Onur
         journal: 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA’21)
         date: "HPCA’21"
-        url: https://loisorosa.github.io/pdf/papers/syncron.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/syncron.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/syncron.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/syncron.pdf)"
 
       - title: "Blockhammer: Preventing rowhammer at low cost by blacklisting rapidly-accessed
           dram rows"
@@ -465,8 +465,8 @@ cv:
           - Mutlu, Onur
         journal: 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA’21)
         date: "HPCA’21"
-        url: https://loisorosa.github.io/pdf/papers/blockhammer.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/blockhammer.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/blockhammer.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/blockhammer.pdf)"
 
       - title: "DAMOV: A new methodology and benchmark suite for evaluating data movement
           bottlenecks"
@@ -481,8 +481,8 @@ cv:
           - Mutlu, Onur
         journal: IEEE Access
         date: "ACCESS’21"
-        url: https://loisorosa.github.io/pdf/papers/damov.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/damov.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/damov.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/damov.pdf)"
 
       - title: "Codic: A low-cost substrate for enabling custom in-dram functionalities
           and optimizations"
@@ -500,8 +500,8 @@ cv:
           - others
         journal: 48th IEEE International Symposium on Computer Architecture (ISCA’21)
         date: "ISCA’21"
-        url: https://loisorosa.github.io/pdf/papers/codic.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/codic.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/codic.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/codic.pdf)"
 
       - title: "FIGARO: Improving System Performance via Fine-grained in-DRAM Data Relocation and Caching"
         authors:
@@ -518,8 +518,8 @@ cv:
           - Mutlu, Onur
         journal: 53th IEEE/ACM International Symposium on Microarchitecture (MICRO’20)
         date: "MICRO’20"
-        url: https://loisorosa.github.io/pdf/papers/figaro.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/figaro.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/figaro.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/figaro.pdf)"
 
       - title: "Revisiting rowhammer: An Experimental Analysis of Modern DRAM Devices and Mitigation Techniques"
         authors:
@@ -532,8 +532,8 @@ cv:
           - Mutlu, Onur
         journal: 47th Annual International Symposium on Computer Architecture (ISCA’20)
         date: "ISCA’20"
-        url: https://loisorosa.github.io/pdf/papers/revisiting_rowhammer.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/revisiting_rowhammer.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/revisiting_rowhammer.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/revisiting_rowhammer.pdf)"
 
       - title: "FlexWatts: A Power-and Workload-aware Hybrid Power Delivery Network for Energy-efficient Microprocessors"
         authors:
@@ -547,8 +547,8 @@ cv:
           - Mutlu, Onur
         journal:  53rd IEEE/ACM International Symposium on Microarchitecture (MICRO’20)
         date: "MICRO’20"
-        url: https://loisorosa.github.io/pdf/papers/flexwatts.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/flexwatts.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/flexwatts.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/flexwatts.pdf)"
 
       - title: "WoLFRaM: Enhancing Wear-leveling and Fault Tolerance in Resistive Memories using Programmable Address Decoders"
         authors:
@@ -561,8 +561,8 @@ cv:
           - Mutlu, Onur
         journal:  38th IEEE International Conference on Computer Design (ICCD’20)
         date: "ICCD’20"
-        url: https://loisorosa.github.io/pdf/papers/wolfram.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/wolfram.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/wolfram.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/wolfram.pdf)"
 
       - title: "Evanesco: Architectural Support for Efficient Data Sanitization in Modern Flash-based Storage Systems"
         authors:
@@ -575,8 +575,8 @@ cv:
           - Kim, Jihong
         journal: 25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS’20)
         date: "ASPLOS’20"
-        url: https://loisorosa.github.io/pdf/papers/evanesco.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/evanesco.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/evanesco.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/evanesco.pdf)"
 
       - title: "Robust Machine Learning Systems: Challenges, Current Trends, Perspectives, and the Road Ahead"
         authors:
@@ -589,8 +589,8 @@ cv:
           - Choi, Jungwook
         journal: IEEE Design & Test (D&T)
         date: "D&T’20"
-        url: https://loisorosa.github.io/pdf/papers/robustML.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/robustML.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/robustML.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/robustML.pdf)"
 
       - title: "CLR-DRAM: A Low-cost DRAM Architecture Enabling Dynamic Capacity-latency Trade-off"
         authors:
@@ -604,8 +604,8 @@ cv:
           - Mutlu, Onur
         journal: 47th Annual International Symposium on Computer Architecture (ISCA’20)
         date: "ISCA’20"
-        url: https://loisorosa.github.io/pdf/papers/clrdram.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/clrdram.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/clrdram.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/clrdram.pdf)"
 
       - title: "Optically Connected Memory for Disaggregated Data Centers"
         authors:
@@ -622,8 +622,8 @@ cv:
           - Azevedo, Rodolfo
         date: "SBAC-PAD'20"
         journal: "32nd International Symposium on Computer Architecture and High Performance Computing"
-        url: https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/optical_sbacpad2020.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/optical_sbacpad2020.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/optical_sbacpad2020.pdf)"
 
 
       - title: "D-RaNGe: Using commodity DRAM Devices to Generate True Random Numbers with Low Latency and High Throughput"
@@ -635,8 +635,8 @@ cv:
           - Mutlu, Onur
         journal: 5th IEEE International Symposium on High-Performance Computer Architecture (HPCA’19)
         date: "HPCA’19"
-        url: https://loisorosa.github.io/pdf/papers/drange.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/drange.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/drange.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/drange.pdf)"
 
       - title: "ITAP: Idle-time-aware Power Management for GPU Execution Units"
         authors:
@@ -652,8 +652,8 @@ cv:
           - Mutlu, Onur
         journal: ACM Transactions on Architecture and Code Optimization (TACO)
         date: "TACO’19"
-        url: https://loisorosa.github.io/pdf/papers/itap.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/itap.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/itap.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/itap.pdf)"
 
       - title: "EDEN: Enabling Energy-efficient, High-performance Deep Neural Network Inference using Approximate DRAM"
         authors:
@@ -666,8 +666,8 @@ cv:
           - Mutlu, Onur
         journal: 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO’19)
         date: "MICRO’19"
-        url: https://loisorosa.github.io/pdf/papers/eden.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/eden.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/eden.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/eden.pdf)"
 
 
       - title: "Reducing DRAM Latency via Charge-level-aware Look-ahead partial Restoration"
@@ -684,8 +684,8 @@ cv:
           - Mutlu, Onur
         journal:  51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO’18)
         date: "MICRO’18"
-        url: https://loisorosa.github.io/pdf/papers/reducing_dram_latency.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/reducing_dram_latency.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/reducing_dram_latency.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/reducing_dram_latency.pdf)"
 
       - title: "AVPP: Address-first Value-next Predictor with Value Prefetching for Improving the Efficiency of Load Value Prediction"
         authors:
@@ -694,8 +694,8 @@ cv:
           - Mutlu, Onur
         journal: ACM Transactions on Architecture and Code Optimization (TACO)
         date: "TACO’18"
-        url: https://loisorosa.github.io/pdf/papers/avpp.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/avpp.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/avpp.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/avpp.pdf)"
 
       - title: "FLIN: Enabling Fairness and Enhancing Performance in Modern NVMe Solid State Drives"
         authors:
@@ -711,8 +711,8 @@ cv:
           - Mutlu, Onur
         journal: 45th International Symposium on Computer Architecture (ISCA’18),
         date: "ISCA’18"
-        url: https://loisorosa.github.io/pdf/papers/flin.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/flin.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/flin.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/flin.pdf)"
 
       - title: Asymmetric Allocation in a Shared Flexible Signature Module for Multicore Processors
         authors:
@@ -721,8 +721,8 @@ cv:
           - Antelo, Elisardo
         journal: The Computer Journal (CJ’16)
         date: "CJ’16"
-        url: https://loisorosa.github.io/pdf/papers/asymmetric.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/asymmetric.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/asymmetric.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/asymmetric.pdf)"
 
       - title: A Hardware Approach to Detect, Expose and Tolerate High Level Data Races
         authors:
@@ -730,8 +730,8 @@ cv:
           - Lourenco, Joao
         journal: 4th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP’16)
         date: "PDP’16"
-        url: https://loisorosa.github.io/pdf/papers/data_races.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/data_races.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/data_races.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/data_races.pdf)"
 
       - title: Temporal frequent value locality
         authors:
@@ -739,8 +739,8 @@ cv:
           - Azevedo, Rodolfo
         journal: 3rd IEEE International Conference on Electronics, Circuits and Systems (ICECS’16)
         date: "ICECS’16"
-        url: https://loisorosa.github.io/pdf/papers/temporal.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/temporal.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/temporal.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/temporal.pdf)"
 
       - title: Architecting a Computer with a Full Optical RAM
         authors:
@@ -749,8 +749,8 @@ cv:
           - Azevedo, Rodolfo
         journal: 3rd IEEE International Conference on Electronics, Circuits and Systems (ICECS’16)
         date: "ICECS’16"
-        url: https://loisorosa.github.io/pdf/papers/full_optical_ram.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/full_optical_ram.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/full_optical_ram.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/full_optical_ram.pdf)"
 
       - title: "Flexsig: Implementing Flexible Hardware Signatures"
         authors:
@@ -759,8 +759,8 @@ cv:
           - Bruguera, Javier D
         journal: ACM Transactions on Architecture and Code Optimization (TACO)
         date: "TACO’12"
-        url: https://loisorosa.github.io/pdf/papers/flexsig.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/flexsig.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/flexsig.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/flexsig.pdf)"
 
       - title: "Pacman: Tolerating Asymmetric Data Races with Unintrusive Hardware"
         authors:
@@ -771,8 +771,8 @@ cv:
           - Torrellas, Josep
         journal: 8th International Symposium on High Performance Computer Architecture (HPCA’12)
         date: "HPCA’12"
-        url: https://loisorosa.github.io/pdf/papers/pacman.pdf
-        summary: "[PDF](https://loisorosa.github.io/pdf/papers/pacman.pdf)"
+        url: https://loisorosa.github.io/assets/pdf/papers/pacman.pdf
+        summary: "[PDF](https://loisorosa.github.io/assets/pdf/papers/pacman.pdf)"
 
     Workshops:
       - title: "LogSI-HTM: Log Based Snapshot Isolation in Hardware Transactional Memory"
